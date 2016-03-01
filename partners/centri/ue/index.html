@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+
+
+    <title>centri UE</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+</head>
+
+<body style="font-size:11px;font-family:helvetica">
+    <div style="width:100%; text-align:center; font-size:20px; font-weight:bold; height:40px ">Tutti i Centri Iscritti EBMT</div>
+    <div id="target"></div>
+
+</body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+<script src="cic_all.js"></script>
+<script>
+    $(document).ready(function() {
+
+        var keys = _.keys(cic_all);
+
+        var prog = 0;
+        var html = "<table width='100%'>";
+         html +="<tr style='background-color:#666; color:white'><th>n.</th><th>cic</th><th>Nome</th><th>Città</th><th>Tel.</th><th>Fax</th><th>Contatti</th><th>Indirizzo</th></tr>"
+        _.each(keys, function(key,index) {
+            
+           
+            
+            
+            
+            
+            var city = cic_all[key].city;
+            var cic = cic_all[key].cic;
+            var tel = cic_all[key].tel;
+            var fax = cic_all[key].fax;
+            var address = cic_all[key].address;
+            var name = cic_all[key].name;
+            var emails = cic_all[key].emails;
+            
+            var printable_emails = "";
+            _.each(emails,function(email){
+                printable_emails +=email+"<br>";
+            })
+            
+            var ita = (address.indexOf("Italy") != -1);
+            
+            if(fax != null){
+                if(fax.indexOf("or") != -1 ){
+                    console.log(fax);
+                }
+
+            }
+            
+            html +="<tr style='background-color:#fafafa'>";
+            if(true){
+                prog++;
+                
+                
+                html +="<td>"+prog+"</td>";
+                html +="<td>"+cic+"</td>";
+                html +="<td>"+name+"</td>";
+                html +="<td>"+city+"</td>";
+                html +="<td>"+tel+"</td>";
+                html +="<td>"+fax+"</td>";
+                html +="<td>"+printable_emails+"</td>";
+                html +="<td>"+address+"</td>";
+                
+                /*html += "<div style='font-size:10px; font-family:helvetica; color:white; clear:both'>"+
+                        "<div style='color:red;margin-bottom:1px; padding:3px 0px 3px 3px; width:40px; float:left'>"+prog+"</div>"+
+                        "<div style='background-color:#666;margin-bottom:1px; padding:3px 0px 3px 3px; width:40px; float:left'>"+cic+"</div>"+
+                        "<div style='background-color:#0b0;margin-bottom:1px; padding:3px 0px 3px 3px; width:310px; float:left'>"+name+"</div>"+
+                        "<div style='background-color:#666;margin-bottom:1px; padding:3px 0px 3px 3px; width:110px; float:left'>"+city+"</div>"+
+                        "<div style='background-color:#444;margin-bottom:1px; padding:3px 0px 3px 3px; width:170px; float:left'>"+tel+"</div>"+
+                        "<div style='background-color:#666;margin-bottom:1px; padding:3px 0px 3px 3px; width:190px; float:left'>"+fax+"</div>"+
+                        "<div style='background-color:red;margin-bottom:1px; padding:3px 0px 3px 3px; width:20px; float:left'>"+emails+"</div>"+
+                        "<div style='background-color:pink; color:black;margin-bottom:1px; padding:3px 0px 3px 3px; width:20px; float:left'>"+ita+"</div>"+
+                        "<div style='background-color:#666;margin-bottom:1px; padding:3px 0px 3px 3px; width:220px; float:left; font-size:8px'>"+address+"</div>"+
+                
+                    "</div>";
+                    */
+
+            }
+            html +="</tr>";
+            
+        });
+        
+        html +="</table>";
+
+        $("#target").html(html);
+        
+        
+        
+       //console.log(JSON.stringify(new_obj));
+
+        
+    });
+</script>
+
+</html>
+
+
+
+
+
+
+
+

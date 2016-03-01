@@ -1,0 +1,289 @@
+
+.slideshow_container{
+	height: 550px;
+	padding-top:40px;
+	font-family:"Din-bold";
+	font-size: 32px;
+	color: #5e5e5e;
+	
+}
+
+.slideshow{
+	width: 900px;
+	height: 480px;
+	margin: 0px auto;
+	position: relative;
+}
+
+
+
+.slide_vertical_separator{
+	width: 60px;
+	height: 100%;
+	background-image:url("../img/vertical_separator.png");
+	position: absolute;
+	right: 420px;
+	background-repeat: repeat-x;
+	margin-top: 17px;
+}
+
+.slide_img_container{
+	width: 420px;
+	height: 400px;
+	position: absolute;
+}
+
+
+.canvas{
+	background-image:url('../img/canvas.png');
+	width:450px;
+	height: 317px;
+	position: absolute;
+	top:45px;
+	left: 80px;
+}
+
+.canvas{
+	left : 430px;
+}
+
+.canvas:first-child{
+	left : 100px;
+}
+
+
+
+.slide{
+	width:427px;
+	height: 284px;
+	position: absolute;
+	top:19px;
+	left:23px;
+}
+
+
+/*
+ * parte destra dell'header
+ */
+.slide_txt{
+	position: absolute;
+	display: none;
+}
+
+.slide_txt:first-child{
+	display: block;
+}
+
+
+.slide_txt_container{
+	width: 420px;
+	height: 400px;
+	position: absolute;
+	background-image:url('../img/slideshow_bg.png');
+	right: 0px;
+}
+
+.slide_txt_container_title{
+	text-align: center;
+	width: 400px;
+	margin-top: 25px;
+	font-family: "Din-bold";
+	
+}
+
+.slide_txt_container_text{
+	text-align: center;
+	width: 400px;
+	margin-top: 10px;
+	font-family: "Din Medium";
+	font-size: 17px;
+}
+
+
+/*
+ * SLIDE
+ */
+.tre_aree_slide{background-image:url('../img/slides/tre_aree.png')}
+
+.stoccaggio_slide{background-image:url('../img/slides/stoccaggio.png')}
+
+.magazzino_slide{background-image:url('../img/slides/magazzino.png')}
+
+.documenti_slide{background-image:url('../img/slides/documenti.png')}
+
+.firma_digitale_slide{background-image:url('../img/slides/firma_digitale.png')}
+
+.notifiche_interne_slide{background-image:url('../img/slides/notifiche_interne.png')}
+
+.vista_grafico_slide{background-image:url('../img/slides/vista_grafico.png')}
+
+.flusso_slide{background-image:url('../img/slides/flusso.png')}
+
+.tracciabilita_slide{background-image:url('../img/slides/tracciabilita.png')}
+
+.barcode_slide{background-image:url('../img/slides/barcode.png')}
+
+
+
+
+.iconBadge_bg_container{
+	width: 100%;
+	height: 160px;
+	position: relative;
+}
+
+.iconBadge_left_filter{
+	background-image: url('../img/badge_left_filter.png');
+	position: absolute;
+	width: 143px;
+	height: 145px;
+	left: 31px;
+	top: 4px;
+	z-index: 10000
+}
+
+.iconBadge_right_filter{
+	background-image: url('../img/badge_right_filter.png');
+	position: absolute;
+	width: 143px;
+	height: 145px;
+	left: 246px;
+	top: 4px;
+	z-index: 10000
+}
+
+
+
+
+.iconBadge_bg{
+	background-image:url('../img/icon_badge_bg.png');
+	width:160px;
+	height: 160px;
+	margin: 15px auto;
+	cursor: pointer
+}
+
+.iconBadge_bg.little{
+	background-image:url('../img/icon_badge_little_bg.png');
+	width:53px;
+	height:53px;
+}
+
+.iconBadge_bg.on{
+	background-image:url('../img/icon_badge_bg_on.png');
+}
+
+.iconBadge_bg.on.little{
+	background-image:url('../img/icon_badge_little_bg_on.png');
+}
+
+.littleBadgeTitle{
+	position: absolute;
+	text-align: center;
+	font-family: "Din";
+	font-size: 13px;
+	top: 54px;
+	width: 95px;
+	left: -22px;
+	line-height: 16px;
+	color: #a9a9a9;
+}
+
+
+
+
+.little_badges_container{
+	position: absolute;
+	top: 405px;
+	display: table;
+	width: 900px;
+	z-index: 200;
+}
+
+.little_badges_container > div{
+	display: table-row
+}
+
+.little_badges_container > div > div{
+	display: table-cell;
+}
+
+
+
+
+
+
+/*
+ * badge grandi
+ */
+.slidingIcon{
+	position: absolute;
+	z-index: 9000;
+	width:160px;
+	height: 160px;
+}
+
+
+.barcode{background-image:url('../img/icons/big/barcode.png')}
+.magazzino{background-image:url('../img/icons/big/magazzino.png');}
+.firma_digitale{background-image:url('../img/icons/big/firma_digitale.png');}
+.calcoli{background-image:url('../img/icons/big/calcoli.png');}
+.tre_aree{background-image:url('../img/icons/big/tre_aree.png');}
+.vista_grafico{background-image:url('../img/icons/big/vista_grafico.png');}
+.flusso{background-image:url('../img/icons/big/flusso.png');}
+.tracciabilita{background-image:url('../img/icons/big/tracciabilita.png');}
+.documenti{background-image:url('../img/icons/big/documenti.png');}
+.notifiche{background-image:url('../img/icons/big/notifiche.png');}
+.formazione{background-image:url('../img/icons/big/formazione.png');}
+.localizzazione{background-image:url('../img/icons/big/localizzazione.png');}
+.notifiche_fra_reparti{background-image:url('../img/icons/big/notifiche_fra_reparti.png');}
+.report{background-image:url('../img/icons/big/report.png');}
+.stoccaggio{background-image:url('../img/icons/big/stoccaggio.png');}
+
+.slidingIcon,.slidingIconOut{
+	left: 24px;
+}
+
+.slidingIcon:first-child,.slidingIconIn{
+	left: 129px;
+}
+
+
+
+
+/*
+ * badge piccoli 
+ */
+.icon_little{
+	width:53px;
+	height:53px;
+	position: absolute
+}
+
+.barcode_little{background-image:url('../img/icons/little/barcode.png')}
+.calcoli_little{background-image:url('../img/icons/little/calcoli.png')}
+.documenti_little{background-image:url('../img/icons/little/documenti.png')}
+.firma_digitale_little{background-image:url('../img/icons/little/firma_digitale.png')}
+.formazione_little{background-image:url('../img/icons/little/formazione.png')}
+.localizzazione_little{background-image:url('../img/icons/little/localizzazione.png')}
+.magazzino_little{background-image:url('../img/icons/little/magazzino.png')}
+.notifiche_fra_reparti_little{background-image:url('../img/icons/little/notifiche_reparti.png')}
+.notifiche_little{background-image:url('../img/icons/little/notifiche.png')}
+.report_little{background-image:url('../img/icons/little/report.png')}
+.stoccaggio_little{background-image:url('../img/icons/little/stoccaggio.png')}
+.tracciabilita_little{background-image:url('../img/icons/little/tracciabilita.png')}
+.tre_aree_little{background-image:url('../img/icons/little/tre_aree.png')}
+.vista_grafico_little{background-image:url('../img/icons/little/vista_grafico.png')}
+.flusso_little{background-image:url('../img/icons/little/flusso.png')}
+
+/* tmOnlineServices icons*/
+.email_little{background-image:url('../img/icons/little/mail.png')}
+.live_demo_little{background-image:url('../img/icons/little/live_demo.png')}
+.handbook_little{background-image:url('../img/icons/little/handbook.png')}
+.download_little{background-image:url('../img/icons/little/download.png')}
+.helpdesk_little{background-image:url('../img/icons/little/helpdesk.png')}
+.ebmt_little{background-image:url('../img/icons/little/ebmt.png')}
+
+
+
+

@@ -1,0 +1,160 @@
+
+<!-- saved from url=(0036)http://www.appml.org/talk/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">		
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<title>HandBook</title>
+<link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" charset="utf-8" src="json.js"></script>
+<script type="text/javascript" charset="utf-8" src="lib/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="lib/jquery-ui-1.8.5.custom.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="lib/underscore.js"></script>
+<script type="text/javascript" charset="utf-8" src="lib/_plus.js"></script>
+<script type="text/javascript" charset="utf-8" src="src/screen.js"></script>
+<script type="text/javascript" charset="utf-8" src="src/handbookCore.js"></script>
+<script type="text/javascript" src="lib/hicGoogleDocsParser.js"></script>
+<link rel="stylesheet" href="css/button/button.css">
+<!--[if lt IE 9]>
+  <script type="text/javascript" src="lib/spinner/excanvas.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="lib/spinner/spinners.min.js"></script>
+
+<style>
+	body{
+		font-family: Helvetica;
+		color: #555;
+		font-size: 16px;
+		text-shadow: -1px 1px 1px rgba(255,255,255,0.4);
+	}
+	
+	.tabular-cell{
+		vertical-align: middle;
+		text-align: center
+	}
+	
+	.tabular-cell{
+		border-bottom: dotted 1px #fff
+	}
+	
+	.rowDesc{
+		width: 35%;
+		background-color: #ccc;
+	}
+	
+	.rowIcon{
+		width: 3%;
+		background-color: #444;
+	}
+	
+</style>
+
+<body>
+	<div class="tabular">
+		
+		<div class="tabular-row">
+			<div class="tabular-cell rowIcon"><img src="img/tm.png"></div>
+			<div class="tabular-cell rowDesc">
+				<div>Punti di forza</div>
+			</div>
+			<div class="tabular-cell" style="text-align:center">
+				<div>
+                    <button class="BUTTON blue" onclick="location.href='screenshots/punti_di_forza/'">1</button>
+                </div>
+			</div>
+		</div>
+		
+		<div class="tabular-row">
+			<div class="tabular-cell rowIcon"><img src="img/tm.png"></div>
+			<div class="tabular-cell rowDesc">
+				<div>Un'introduzione generale all'interfaccia di TransplantManager</div>
+			</div>
+			<div class="tabular-cell" style="text-align:center">
+				<div><button class="BUTTON blue" onclick="location.href='screenshots/interfaccia_generale'">Introduzione interfaccia</button></div>
+			</div>
+		</div>
+		
+		<div class="tabular-row">
+			<div class="tabular-cell rowIcon"> <img src="img/clinica.png"> </div>
+			<div class="tabular-cell rowDesc">
+				<div>Area Clinica</div>
+			</div>
+			<div class="tabular-cell" style="text-align:center">
+				<div>
+                    <button class="BUTTON blue" >Inserimento Scheda Clinica</button>
+                    <button class="BUTTON blue" onclick="location.href='screenshots/scheda_clinica'">Visuaizzazione Scheda Clinica</button>
+                </div>
+			</div>
+		</div>
+		
+		<div class="tabular-row">
+			<div class="tabular-cell rowIcon"> <img src="img/raccolta.png"> </div>
+			<div class="tabular-cell rowDesc">
+				<div>Area Raccolta</div>
+			</div>
+			<div class="tabular-cell" style="text-align:center">
+				<div>
+					<button class="BUTTON  blue">Flusso Autologa HPC_A</button>
+					<button class="BUTTON  blue">Flusso Autologa HPC_M</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="tabular-row">
+			<div class="tabular-cell rowIcon"> <img src="img/raccolta.png"> </div>
+			<div class="tabular-cell rowDesc">
+				<div> Area Processazione</div>
+			</div>
+			<div class="tabular-cell" style="text-align:center">
+				<div>
+					<button class="BUTTON  blue">Flusso Allogenico HPC_A</button>
+					<button class="BUTTON  blue">Flusso Allogenico HPC_M</button>
+					<button class="BUTTON  blue">Flusso Allogenico TCT</button>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<div class="tabular-row">
+			<div class="tabular-cell rowIcon"> <img src="img/stock.png"> </div>
+			<div class="tabular-cell rowDesc">
+				<div>Gestione Magazzino e Scorte</div>
+			</div>
+			<div class="tabular-cell" style="text-align:center">
+				<div><button class="BUTTON blue">Magazzino</button></div>
+			</div>
+		</div>
+		
+		<div class="tabular-row">
+			<div class="tabular-cell rowIcon"> <img src="img/criopreservazione.png"> </div>
+			<div class="tabular-cell rowDesc">
+				<div>Gestione Stoccaggio e Criopreservazione Unità</div>
+			</div>
+			<div class="tabular-cell" style="text-align:center">
+				<div><button class="BUTTON blue">Stoccaggio</button></div>
+			</div>
+		</div>
+		
+		<div class="tabular-row">
+			<div class="tabular-cell rowIcon"></div>
+			<div class="tabular-cell rowDesc">
+				<div>Gestione Documentale</div>
+			</div>
+			<div class="tabular-cell" style="text-align:center">
+				<div><button class="BUTTON blue">Etichette</button><button class="BUTTON blue">Documenti</button></div>
+			</div>
+		</div>
+		
+		<div class="tabular-row">
+			<div class="tabular-cell rowIcon"></div>
+			<div class="tabular-cell rowDesc">
+				<div>Generazione Report</div>
+			</div>
+			<div class="tabular-cell" style="text-align:center">
+				<div><button class="BUTTON blue">I report Excell</button></div>
+			</div>
+		</div>
+			
+	</div>	
+</body>
+	

@@ -1,0 +1,138 @@
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">		
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<title> Centri ITA </title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/button/button.css">
+<!-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?v=3.5&sensor=false"></script>-->
+<script type="text/javascript" src="JSON.js"></script>
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="hicGoogleDocsParser.js"></script>
+<script type="text/javascript" src="underscore/underscore.js"></script>
+<script type="text/javascript" src="underscore/_plus.js"></script>
+
+<!--[if lt IE 9]>
+  <script type="text/javascript" src="spinner/spinners.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="spinner/spinners.min.js"></script>
+
+<style>
+
+	.foglioA4{
+		
+		width: 836px;
+		height: 1210px;
+		margin-bottom: 30px;
+		position: relative;
+		top:0px;
+		left:0px;
+	}
+	
+	.relative{
+		position:relative
+	}
+	
+	.absolute{
+		position: absolute
+	}
+	
+	
+	
+	.address_hole{
+		background-color: rgba(0,0,0,0.02);
+		width: 335px;
+		height: 100px;
+		top: 214px;
+		left: 481px;
+		padding:10px 5px;
+		font-size: 13px;
+		font-family: Helvetica;
+	}
+	
+	.text{
+		top: 340px;
+		width: 820px;
+		font-size: 13px;
+		left: 10px;
+		line-height: 24px;
+		text-align: justify;
+		
+	}
+	
+	@media print{
+		.address_hole{
+			background-color: white;
+		}
+		.foglioA4{
+			
+		}
+		.buttons{
+			display: none;
+			height: 0px;
+			overflow: hidden;
+		}
+	}
+	
+</style>
+
+<body>
+	
+	<div id="general_container"></div>
+				
+</body>
+	
+	
+<script>
+
+hicGoogleDocsParser({
+		"url":"https://docs.google.com/spreadsheet/pub?key=0At-edMs8aNDBdC0wTHJPeUhMd2RqMmk2cnJFVmI2NWc&output=html",
+		"callback":"stampaLettere",
+		"loadingTarget":"#general_container",
+		"target" : "#general_container"
+});
+	
+function stampaLettere(result,options){
+	
+	var html_lettera = "";
+	  _.each(result.trs,function(centro,index){
+	  	
+	  		html_lettera +="<div class='foglioA4'>";
+	  		
+	  			html_lettera +="<div class='relative'>";
+	  				
+	  				
+	  				html_lettera +="<div class='absolute'><div><img src='img/bg_lettera.png' style='width:836px'/></div></div>";
+	  				html_lettera +="<div class='absolute address_hole'><div>Spett.le<br> <font style='font-weight:bold; font-size:16px'>"+centro.centro+"</font><br> "+centro.indirizzo+" <br> <b>"+centro.city+"</b></div></div>";
+	  				
+	  				//html_lettera +="<div class='absolute text'>"+
+	  				
+	  						"<div>Ch.mo Professore, Preg.mo Dottore, </br></br>"+
+	  						"Siamo lieti di informarLa che, in occasione del GITMO 2013 che si terrà presso l’Hotel Michelangelo di Milano il 9 e 10 maggio p.v., presenteremo <b>TransplantManager</b>."+
+	  						"La invitiamo per tanto a visitare il nostro stand nel quale avrà la possibilità di <b>testare personalmente TransplantManager</b>."+
+	  						//"<br><br><b>TransplantManager</b>, un nuovo ed innovativo software per la gestione completa di un Programma Trapianti, in linea con gli standard JACIE e conforme alle leggi vigenti in merito, (in particolare "+
+	  						//"<b>Decreto Legislativo n. 191 del  6 novembre 2007 e decreto legislativo n. 16  del  25 gennaio 2010</b> regolamentano <i>&#34;le norme di qualità e di sicurezza per la donazione, l'approvvigionamento, il controllo, la lavorazione, la conservazione, lo stoccaggio e la distribuzione di tessuti e cellule umani&#34;)</i> "+
+	  						
+	  						
+	  						//"<br><br><br>Con <b>TransplantManager</b> è possibile:<br></div>"+
+	  						
+	  						
+	  						
+	  						//"<div>Sarà inoltre possibile richiedere un <b>account personalizzato</b> per l'accesso alla versione dimostrativa di TranspalnatManager pubblicata on line, in modo da poterne prendere visione anche successivamente all'evento.</div>"+
+	  						//"<div style='float:right;font-weight:bold'><br><br><br>www.transplantmanager.com <br> info@transplantmanager.com</div>"+
+	  				
+	  				"</div>";
+	  				
+	  				
+	  			html_lettera +="</div>";
+	  			
+	  		html_lettera +="</div>";
+
+	  });
+
+	  $(options.target).append(html_lettera);
+}
+
+</script>
+

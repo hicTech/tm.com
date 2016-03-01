@@ -1,0 +1,116 @@
+<style>
+
+    
+</style>
+
+
+<div>
+
+ 
+    <div id="general_target">
+    
+            
+        
+    </div>
+   
+
+</div>
+
+
+
+<script>
+
+    moduleFunctions = {
+        js_on:function(opts){
+
+            
+            
+            hicGoogleDocsParser({
+                "url":"https://docs.google.com/spreadsheet/pub?key=0AjlzvjiyIeVzdGlaandJM01ld09lWnNsM3BzVVhWcFE&output=html",
+                "googleDocUrl" : "https://docs.google.com/a/transplantmanager.com/spreadsheet/ccc?key=0AjlzvjiyIeVzdGlaandJM01ld09lWnNsM3BzVVhWcFE&usp=drive_web#gid=0",
+                "callback":"launchPagesPrinting",
+                "loadingTarget":"#general_target",
+                "target" : "#general_target"
+            });
+            
+           
+            
+
+        },
+        
+        printPages:function(result,options){
+            
+            var that = this;
+            var $that = this.$();
+            
+            _.each(result.trs,function(page,index){
+                var $page = that.getPageHtml(page,index);
+                $that.find(options.target).append($page);
+            });
+            
+            $("body").append("<div class='no-print' style='position:fixed;top:0px;right:30px; font-size:11px'><a href='"+options.googleDocUrl+"' target='_black'>vai al doc</a></div>");  
+            
+        },
+
+        getPageHtml:function(page,index){
+            var tot = "";
+            for(var i=0; i<528; i++){
+                tot +="<div style='float:left; border:solid 1px; font-size:8px; width:20px; height:20px'>"+i+"</div>";
+            }
+            return '<div class="page" >'+
+                            '<div class="subpage"> '+
+                                '<div class="wrapper">'+
+                                    '<div class="mw_address_container">MedicalWare srl <br>Via della Ricerca Scientifica snc <br>00133 - Roma<br> P.Iva: IT12651051000 <br> Numero verde: <font style="color:green">800 97 65 23</font> </div>'+
+                                    '<div class="logo_mw"></div>'+
+                                    '<div class="address_container">'+unescape(page.address)+'</div>'+
+                                    '<div class="riga1"></div>'+
+                                    '<div class="riga2"></div>'+
+                                    '<div class="pageNumber no-print">Pag. '+parseInt(index+1)+'</div>'+
+                                    '<div class="testo">Ch.mo Professore, Preg.mo Dottore,<br>Siamo lieti di presentarLe <b>TransplantManager</b>, un nuovo ed innovativo software, nato per la gestione completa di un Programma Trapianti, in linea con gli <b>standard JACIE</b> e con le attuali vigenti leggi, come il <b>Decreto Legislativo n. 191 del 6 novembre 2007 ed il decreto Legislativo n. 16 del 25 gennaio 2010</b> che vanno a regolamentare “le norme di qualita\' e di sicurezza per la donazione, l\'approvvigionamento, il controllo, la lavorazione, la conservazione, lo stoccaggio e la distribuzione di tessuti e cellule umani" <br><br><b>Con TrasplantManager è possibile:</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Gestire le tre Facility (Clinica, Raccolta e Processazione) che compongono l’intero programma trapianti in maniera &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;separata ma sinergica e coordinata;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Seguire il flusso completo delle attività, dall\'ingresso del paziente in reparto all\'avvenuto attecchimento del trapianto;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Gestire in maniera semplice la stampa e la compilazione di documenti ed etichette, compresi (su richiesta) i moduli &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MED-A e MED-B;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Firmare digitalmente tutti i documenti;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Gestire in maniera integrata il magazzino scorte (in particolare di Raccolta e Processazione), garantendo la tracciabilità &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dei reagenti, dei dispositivi e del materiale utilizzato;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Gestire lo stoccaggio dei contenitori criogenici;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Tracciare tutte le operazioni effettuate da ogni singolo operatore.</div>'+
+                
+                                    '<div class="red_banner">Ci teniamo ad informarLa che saremo presenti al 40esimo meeting EBMT<br><div>Milano dal 30 Marzo al 2 Aprile</div><br>Venga a trovarci allo stand n.107<br> <span>Saremo lieti di illustrarle il software. Sul sito www.transplantmanager.com può prenotare la dimostrazione, riceverà uno speciale gadget a lei dedicato.</span> </div>'+
+                
+                                    '<div class="container_firma">D.ssa Giuliana Ruffolo<br>amministratore unico<div class="firma"></div></div>'+
+                                    '<div class="container_firma_tm">www.transplantmanager.com<br>info@transplantmanager.com</div>'+
+                                    '<div class="logo"></div>'+
+                                    '<div class="ebmt_logo"></div>'+
+            
+                                    //'<div>'+tot+'</div>'
+
+
+                                '</div> '+
+                            '</div>  '+
+                        '</div> ';
+            
+            
+            
+            
+        },
+
+        /*
+        
+        getPageHtml:function(page,index){
+            var tot = "";
+            for(var i=0; i<528; i++){
+                tot +="<div style='float:left; border:solid 1px; font-size:8px; width:20px; height:20px'>"+i+"</div>";
+            }
+            return '<div class="page" >'+
+                            '<div class="subpage"> '+
+                                '<div class="wrapper">'+
+
+                                    '<div class="pageNumber no-print">Pag. '+parseInt(index+1)+'</div>'+
+                                    '<div>'+tot+'</div>'
+
+
+                                '</div> '+
+                            '</div>  '+
+                        '</div> ';
+            
+            
+            
+            
+        }
+        */
+    };
+
+</script>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	
+
+    <title>Transplant Manager</title>
+    <meta content="yes" name="apple-mobile-web-app-capable">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet" media="screen">
+    <link href="css/header_slideshow.css" rel="stylesheet" media="screen">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+   	<script src="js/bootstrap.min.js"></script>
+   	<script src="js/slideHeader.js"></script>
+   	<script src="js/jquery-ui-1.10.1.custom.min.js"></script>	
+   	<script type="text/javascript" src="js/googleDocsParser/hicGoogleDocsParser.js"></script>
+    <script type="text/javascript" src="js/underscore/underscore.js"></script>
+    <script type="text/javascript" src="js/underscore/_plus.js"></script>
+    <!--[if lt IE 9]><script type="text/javascript" src="js/spinner/spinners.min.js"></script><![endif]-->
+	<script type="text/javascript" src="js/spinner/spinners.min.js"></script>
+	<link rel="icon" href="favicon.ico" type="image/png" />
+	
+	
+	<script type="text/javascript">
+		var userLang = navigator.language || navigator.userLanguage;
+		userLang = (userLang.indexOf("it") != -1)? "it" : "en";
+	</script>
+	<script src="js/localization.js"></script>
+	
+
+  </head>
+  
+  <body>  
+  
+  	<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div style="text-align: center;margin: 0px auto;width: 300px;color: white;"><a class="brand" href="index.html" style="color:white; font-size:22px">www.transplantManager.com</a></div>
+      </div>
+    </div>
+    
+    
+   	<div class="slideshow_container">
+   		<div class="slideshow">
+   			<div class="slide_img_container">
+   				<div class="canvas"><div class="slide tre_aree_slide"></div></div>
+   				<div class="canvas"><div class="slide flusso_slide"></div></div>
+				<div class="canvas"><div class="slide documenti_slide"></div></div>
+				<div class="canvas"><div class="slide firma_digitale_slide"></div></div>
+				<div class="canvas"><div class="slide magazzino_slide"></div></div>
+				<div class="canvas"><div class="slide notifiche_interne_slide"></div></div>
+				<div class="canvas"><div class="slide stoccaggio_slide"></div></div>
+				<div class="canvas"><div class="slide tracciabilita_slide"></div></div>
+				<div class="canvas"><div class="slide barcode_slide"></div></div>
+				<div class="canvas"><div class="slide vista_grafico_slide"></div></div>
+			</div>
+			
+   			<div class="slide_vertical_separator"></div>
+			<div class="slide_txt_container">
+				<div class="iconBadge_bg_container">
+					<div class="iconBadge_left_filter"></div>
+					<div class="iconBadge_bg">
+						<div class="tre_aree slidingIcon"></div>
+						<div class="flusso slidingIcon"></div>
+						<div class="documenti slidingIcon"></div>
+						<div class="firma_digitale slidingIcon"></div>
+						<div class="magazzino slidingIcon"></div>
+						<div class="notifiche slidingIcon"></div>
+						<div class="stoccaggio slidingIcon"></div>
+						<div class="tracciabilita slidingIcon"></div>
+						<div class="barcode slidingIcon"></div>
+						<div class="vista_grafico slidingIcon"></div>
+					</div>
+					<div class="iconBadge_right_filter"></div>
+				</div>
+				<div id="slide_txts"></div>
+			</div>
+			
+			<div class="little_badges_container">
+				<div>
+					<div><div class="iconBadge_bg little on"><div class="tre_aree_little icon_little"><div class="littleBadgeTitle">Tre facility </br> separate</div></div></div></div>
+					<div><div class="iconBadge_bg little"><div class="flusso_little icon_little"><div class="littleBadgeTitle">Flusso </br> completo</div></div></div></div>
+					<div><div class="iconBadge_bg little"><div class="documenti_little icon_little"><div class="littleBadgeTitle">Documenti</br> editabili</div></div></div></div>
+					<div><div class="iconBadge_bg little"><div class="firma_digitale_little icon_little"><div class="littleBadgeTitle">Firma digitale </br> integrata</div></div></div></div>
+					<div><div class="iconBadge_bg little"><div class="magazzino_little icon_little"><div class="littleBadgeTitle">Gestione </br> magazzino</div></div></div></div>
+					<div><div class="iconBadge_bg little"><div class="notifiche_little icon_little"><div class="littleBadgeTitle">Notifiche e</br> promemoria</div></div></div></div>
+					<div><div class="iconBadge_bg little"><div class="stoccaggio_little icon_little"><div class="littleBadgeTitle">Gestione tank </br></div></div></div></div>
+					<div><div class="iconBadge_bg little"><div class="tracciabilita_little icon_little"><div class="littleBadgeTitle">Tracciabilita'</br> completa</div></div></div></div>
+					<div><div class="iconBadge_bg little"><div class="barcode_little icon_little"><div class="littleBadgeTitle">Stampa</br> etichette</div></div></div></div>
+					<div><div class="iconBadge_bg little"><div class="vista_grafico_little icon_little"><div class="littleBadgeTitle">Visualizzazione</br> grefico</div></div></div></div>
+				</div>
+			</div>
+   		</div>
+   		<div class="progress_bar">
+   			<div class="bar"></div>
+   		</div>
+   	</div>
+   	
+   	<div style="width:156px; margin:0px auto;"><img src="img/tm_logo_100.png" style="margin:0px 0px 0px 30px;"></div>
+   	
+   	
+   	
+	<div style="width:1260px; margin:30px auto;">
+		<img style="margin:50px auto"  src="img/footer_tm_com.jpg" />
+	</div>
+    
+    <footer>
+    	<script> document.write(getLoc("footer")) </script>
+    	
+  	</footer>
+  </body>
+  
+  <script>
+  	$(document).ready(function(){
+  		
+	     
+	    hicGoogleDocsParser({
+			"url":"https://docs.google.com/spreadsheet/pub?key=0AjlzvjiyIeVzdDdPNFhFQ2djS1Z5NUFqMDBlVmF5emc&output=html",
+			"callback":"printSlideHeader",
+			"loadingTarget":"#slide_txts",
+			"target" : "#slide_txts"
+		});
+	    
+	    
+
+		
+  	});
+  	
+  	
+  	function printSlideHeader(result,opts){
+  		
+		var html ="";
+      	_.each(result.trs,function(tr,index){
+      		
+      		var feature = (userLang!="it")? tr.feature_ENG : tr.feature;
+      		var feature_header_desc = (userLang!="it")? tr.feature_header_desc_ENG : tr.feature_header_desc;
+      		
+      		html += '<div class="slide_txt">'+
+						'<div class="slide_txt_container_title">'+feature+'</div>'+
+						'<div class="slide_txt_container_text">'+feature_header_desc+'</div>'+
+					'</div>';
+			$(".little_badges_container").find(".iconBadge_bg").eq(index).find(".littleBadgeTitle").html(feature);
+      	})
+      	
+      	$(opts.target).html(html);
+      	
+      
+      	startSlide(14000);
+	}
+	      	
+	      	
+	      	
+    function printHomeParagraphes(result,opts){
+    	
+    	var html_rows ="";
+      	_.each(result.trs,function(tr){
+      		if(tr.public == "true"){
+      			
+      				var feature = (userLang!="it")? tr.feature_ENG : tr.feature;
+      				var feature_decs = (userLang!="it")? tr.feature_desc_ENG : tr.feature_desc;
+      			
+      				html_rows += '<div class="row">'+
+				      	'<div class="table">'+
+				      		'<div class="tr">'+
+				      			'<div class="td screenshot-td">'+
+				      				 '<div class="screenshot_container">'+
+				      				 	'<div class="screenshot_zoom_triangle"></div>'+
+							        	'<img class="screenshot" width="100%" src="img/slides/'+tr.img_name+'">'+
+							        '</div>'+
+				      			'</div>'+
+				      			'<div class="td text-td">'+
+				      				'<div class="text_container">'+
+				      				  '<h2>'+ feature +'</h2>'+
+								      '<p>'+ feature_decs + '</p>'+
+				      				'</div>'+
+				      			'</div>'+
+				      		'</div>'+
+				      	'</div>'+
+				     '</div>'+
+					 '<hr>';
+			}
+      	});
+      	
+      	$(opts.target).html(html_rows);
+      	
+      	$(".screenshot-td").click( function(){
+      		
+			if( $(this).width() == "250"){
+				 $(this).animate({"width":"492px"},200);
+			}else{
+				$(this).animate({"width":"250px"},200);
+			}
+		}); 		
+    }    	
+      	
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script type="text/javascript">
+	  /* GOOGLE ANALITICS */
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-40523516-1']);
+	  _gaq.push(['_setDomainName', 'transplantmanager.com']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+</html>

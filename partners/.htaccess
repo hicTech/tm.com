@@ -1,0 +1,5 @@
+AuthType basic
+AuthName "Restricted Area"
+AuthGroupFile /dev/null
+AuthUserFile /home/content/02/10443002/htconfig/.htpassword.ghtpassword
+Require user part1 part

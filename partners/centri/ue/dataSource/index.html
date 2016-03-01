@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+    <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+    <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+    <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+    <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        
+        
+        <title>centri UE</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        
+    </head>
+    
+        <body >
+
+<div id="target"></div>
+
+</body>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+        <script src="ue_cic_FULL.js"></script>
+<script>
+    
+$(document).ready(function(){
+        var keys = _.keys(ue_cic);
+        var cities = ['Algeria','Australia','Austria','Belarus','Belgium','Bosnia and Herzegovina','Brazil','Bulgaria','Canada','China','Colombia','Croata','Cyprus','Czech Republic','Denmark','Egypt','Estonia','Finland','France','Germany','Greece','Hungary','Iceland','India','Iran','Ireland','Israel','Italy','Japan','Jordan','Latvia','Lebanon','Lithuania','Macedonia','Malaysia','Mexico','Netherlands','New Zealand','Nigeria','Norway','Oman','Poland','Portugal','Romania','Russia','Saudi Arabia','Serbia and Montenegro','Singapore','Slovakia','Slovenia','South Africa','Spain','Sweden','Switzerland','Taiwan','Tunisia','Turkey','United Kingdom','United States'];
+        var index = 0;
+        var cic_json = {};
+        _.each(keys,function(key){
+            index++;
+
+            var blockquote = $(ue_cic[key]["http-response"]).find("blockquote");
+
+            var cic = key;
+            var cic_info_name = blockquote.find(".cic_info .letra2 b").html().replace(" -","").replace(/[0-9]/g, '');
+
+
+
+
+
+
+
+            var cic_extra_info = blockquote.find(".cic_extra_info").html();
+
+            var info = blockquote.find(".cic_extra_info").text();
+            
+            
+            
+            /* --------ADDRESS------------ */
+            var tel_index = (cic_extra_info.indexOf("Telephone.:")!=-1)? cic_extra_info.indexOf("Telephone.:") : 9999 ;
+            var fax_index = (cic_extra_info.indexOf("Fax: ")!=-1)? cic_extra_info.indexOf("Fax: ") : 9999 ;
+            var email_index = (cic_extra_info.indexOf("E-mail:")!=-1)? cic_extra_info.indexOf("E-mail:") : 9999 ;
+            
+            var first_index = (tel_index<fax_index && tel_index<email_index)? tel_index : (fax_index<tel_index && fax_index<email_index)? fax_index : email_index;
+            
+            cic_address = cic_extra_info.substr(0,first_index).replace('<font class="letra">','');
+            
+
+            /* --------TEL------------ */
+            var tel_index = info.indexOf("Telephone.:");
+            var cic_tel = null;
+            if(tel_index != -1)
+                cic_tel = info.substr(tel_index,45);
+
+
+
+            /* --------FAX------------ */
+            var fax_index = info.indexOf("Fax: ");
+            var cic_fax = null;
+            if(fax_index != -1)
+                cic_fax = info.substr(fax_index,45);
+
+
+
+            /* --------EMAIL------------ */
+            var cic_emails = [];
+            blockquote.find("a").each(function(){
+                if($(this).attr("href").indexOf("mailto:") != -1)
+                    cic_emails.push($(this).attr("href").replace("mailto:","").toLowerCase());
+            });
+            cic_emails = _.uniq(cic_emails, false);
+
+
+            /* --------CITY------------ */
+            var cic_city = "";
+            if(cic_extra_info != undefined){
+                _.each(cities,function(city){
+
+                    if(cic_extra_info.toLowerCase().indexOf(city.toLocaleLowerCase()) != -1){
+                        cic_city = city;
+                    }
+                });
+            }
+            
+            
+
+
+            cic_json[key]={
+                key : key,
+                name : cic_info_name,
+                emails : cic_emails,
+                tel: cic_tel,
+                fax: cic_fax,
+                city : cic_city,
+                address : cic_address 
+            };
+
+
+
+
+
+
+        });
+
+    console.log(JSON.stringify(cic_json));
+
+
+})
+    
+</script>
+</html>
+
+
+
+
+
+
+
+

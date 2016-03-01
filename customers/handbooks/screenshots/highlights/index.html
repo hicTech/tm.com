@@ -1,0 +1,117 @@
+
+<!-- saved from url=(0036)http://www.appml.org/talk/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">		
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<title>Punti di Forza</title>
+<link rel="stylesheet" href="../../css/style.css">
+<script type="text/javascript" charset="utf-8" src="../../json.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../lib/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../lib/jquery-ui-1.8.5.custom.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../lib/underscore.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../lib/_plus.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../src/screen.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../src/print_slide.js"></script>
+<script type="text/javascript" src="../../lib/hicGoogleDocsParser.js"></script>
+<link rel="stylesheet" href="../../css/button/button.css">
+<!--[if lt IE 9]>
+  <script type="text/javascript" src="lib/spinner/excanvas.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="../../lib/spinner/spinners.min.js"></script>
+
+<script>
+
+	$(document).ready(function(){
+		populateSlides();	
+	});
+
+	function populateSlides(handbook_title){
+		$(document).ready(function(){
+			 hicGoogleDocsParser({
+			 	"title" : "Punti di Forza",
+				"url":"https://docs.google.com/spreadsheet/pub?key=0AjlzvjiyIeVzdDBob2ZfdXBfWVVCODdmNWQ4ZTlfclE&output=html",
+				"callback":"printSlides",
+				"loadingTarget":"#slides_description",
+				"sheetUrl" : "https://docs.google.com/a/transplantmanager.com/spreadsheet/ccc?key=0AjlzvjiyIeVzdDBob2ZfdXBfWVVCODdmNWQ4ZTlfclE#gid=0",
+				"target" : "#slides_description"
+			});
+		});
+	}
+	
+	
+	
+	
+	
+	
+</script>
+
+<body style="overflow:hidden">
+	<div class="IE_message">Per visualizzare al meglio questo contenuto aprilo con Chrome, Firefox o Safari</div>
+
+	<div style="overflow:hidden">
+		
+		<!-- MODERN BROWSERS -->	
+		<div class="tabular" id="notIE">
+			<div class="tabular-row" style="height: 45px;" id="header_container">
+        		<div class="tabular-cell">
+        			<div class="header">
+        				<div class="handbookTitle"></div>
+        				<div class="commands">Usa le frecce (&larr; &uarr; &rarr; &darr;) per spostarti avanti ed indietro nelle slide e clicca sull'immagine per ingrandirla &nbsp;</div>
+        			</div>
+        		</div>
+        	</div>
+        	<div class="tabular-row">
+        		<div class="tabular-cell">
+        			<div class="tabular" style="padding:10px">
+						<div class="tabular-row">
+		        			<div class="tabular-cell" id="navigator_container" style="width:250px;overflow:auto">
+		        				<div class="navigator"></div> 
+		        			</div>
+				        	<div class="tabular-cell" style="padding:20px" id="slides">
+				        		
+				        	</div>
+				        </div>
+					</div>
+        		</div>
+        	</div>
+	 		<div class="tabular-row" style="height: 100px;" id="slide_info_container">
+    	    	<div class="tabular-cell">
+    	    		<div class="slide-description-container" id="slides_description">
+    	    			
+    	    		</div>
+    	    	</div>
+       		</div>
+		</div>
+		
+		<!-- IE BROWSER -->
+		<table id="IE" style="width:100%; height:100%" cellspacing="0" cellpadding="0" margintop="0px">
+			<tr style="height:45px">
+				<td colspan="2">
+					<div class="header">
+        				<div class="handbookTitle"></div>
+        				<div class="commands">Usa le frecce (&larr; &uarr; &rarr; &darr;) per spostarti avanti ed indietro nelle slide e clicca sull'immagine per ingrandirla &nbsp;</div>
+        			</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div style="width:250px; height:100%; overflow:scroll"><div class="navigator"></div> </div>
+				</td>
+				<td>
+					<div  style="padding:20px" id="slides"></div>
+				</td>
+			</tr>
+			<tr style="height:90px">
+				<td colspan="2">
+					<div class="slide-description-container" id="slides_description">
+				</td>
+			</tr>
+		</table>
+		
+		
+		
+		
+	</div>
+				
+</body>
+	

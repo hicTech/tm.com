@@ -1,0 +1,142 @@
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">		
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<title> Centri ITA </title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/button/button.css">
+<link rel="icon" href="favicon_tm.ico" type="image/png" />
+<!-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?v=3.5&sensor=false"></script>-->
+<script type="text/javascript" src="JSON.js"></script>
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="hicGoogleDocsParser.js"></script>
+<script type="text/javascript" src="underscore/underscore.js"></script>
+<script type="text/javascript" src="underscore/_plus.js"></script>
+
+<!--[if lt IE 9]>
+  <script type="text/javascript" src="spinner/spinners.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="spinner/spinners.min.js"></script>
+
+
+<body>
+	<div>
+		<div class="tabular">
+			<div class="tabular-row" style="background-color: #222;height: 20px;  color:#fff; text-align:center">
+        		<div class="tabular-cell" style="padding:9px;"><button class="BUTTON red little" style="float:left" onclick="window.open('https://drive.google.com/a/transplantmanager.com/?tab=mo#folders/0BzlzvjiyIeVzX0FLS2UzTHNLd1U')">Google docs</button><b>TUTTI I CENTRI</b> Transplant<font style="color:red">Manager</font> <button class="BUTTON green little" onclick="location.href='crm.html'">Vai al CRM</button> <button class="BUTTON blue little" style="float:right" onclick="window.open('https://docs.google.com/a/transplantmanager.com/spreadsheet/ccc?key=0AjlzvjiyIeVzdG1hYVM1OGZXUVNGNUJWeDRJbWpzeXc#gid=0')">vai al google docs di questi dati</button> </div>
+        	</div>
+        	<div class="tabular-row">
+        		<div class="tabular-cell">
+        			<div class="tabular">
+						<div class="tabular-row">
+		        			
+				        	<div class="tabular-cell">
+				        		
+				        		
+				        		<div class="tabular">
+									
+						        	<div class="tabular-row">
+						        		<div class="tabular-cell">
+						        			<div class="tabular">
+												<div class="tabular-row">
+								        			
+										        	<div class="tabular-cell">
+										        		<div class="wrapper" id="scroller1">
+								        					
+								        					
+
+															<div class="scroller">
+																	<div style="display:table-cell">
+																		<table class="TABLE" id="table">
+																			
+																		</table>
+																	</div>	
+	
+															</div>
+
+
+								        				</div>
+										        	</div>
+										        </div>
+											</div>
+						        		</div>
+						        	</div>
+							 		
+								</div>
+				        		
+				        	</div>
+				        </div>
+					</div>
+        		</div>
+        	</div>
+	 		<!--<div class="tabular-row" style="background-color: red;height: 90px;">
+    	    		<div class="tabular-cell">FOOTER </div>
+      			</div>-->
+		</div>
+</body>
+	
+	
+<script>
+
+
+hicGoogleDocsParser({
+		"url":"https://docs.google.com/spreadsheet/pub?key=0AjlzvjiyIeVzdG1hYVM1OGZXUVNGNUJWeDRJbWpzeXc&output=html",
+		"callback":"stampaCentri",
+		"loadingTarget":"#table",
+		"target" : "#table"
+	});
+	
+function stampaCentri(result,options){
+	
+	var google_contacts_csv = '';       
+	var html_centri = "";
+	
+	html_centri += "<tr>";
+	_.each(result.th,function(intestazione){
+		html_centri +="<th>"+intestazione+"</th>";
+	})
+	html_centri += "</tr>";
+	
+	
+	_.each(result.trs,function(riga){
+		html_centri += "<tr>";
+		
+		_.each(riga,function(valore){
+			html_centri += "<td>"+valore+"</td>";
+		})
+		
+		html_centri += "</tr>";
+	});
+	
+	$(options.target).append(html_centri);
+	
+
+
+	  _.each(result.trs,function(centro,index){
+	  
+	  		var contact_name = (_.is(centro.centro))? centro.centro.replace(/^\s+|\s+$/g,'').replace(/\s{2,}/g, ' ') : "";     //rimuovo spazi bianchi multipli e spazi bianchi iniziali 
+	  		var contact_mail = (_.is(centro.mail))? centro.mail.replace(/^\s+|\s+$/g,'').replace(/\s{2,}/g, ' ') : "";
+	  		var contact_tel = (_.is(centro.tel))? centro.tel.replace(/^\s+|\s+$/g,'').replace(/\s{2,}/g, ' ') : "";
+	  		var contact_fax = (_.is(centro.fax))? centro.fax.replace(/^\s+|\s+$/g,'').replace(/\s{2,}/g, ' ') : "";
+	  		var contact_url = (_.is(centro.url))? centro.url.replace(/^\s+|\s+$/g,'').replace(/\s{2,}/g, ' ') : "";
+	  		var contact_persons = (_.is(centro.persone))? centro.persone.replace(/^\s+|\s+$/g,'').replace(/\s{2,}/g, ' ') : "";
+	  		var contact_indirizzo = (_.is(centro.indirizzo))? centro.indirizzo.replace(/^\s+|\s+$/g,'').replace(/\s{2,}/g, ' ') : "";
+	  		                      
+	  		google_contacts_csv +='"'+contact_name+'",,,,,,,,,,,,,,,,,,,,,,,,,,* My Contacts ::: Centri Italiani,* Work,"'+contact_mail+'",Work,"'+contact_tel+'",Work Fax,"'+contact_fax+'",Indirizzo,"'+contact_indirizzo+'","'+contact_name+'",,,,,,,Profile,"'+contact_url+'",città,"'+centro.city+'",team,"'+contact_persons+'"'
+	  		google_contacts_csv +="\n";
+	  
+	  		// esempio
+	  		// A.O.R.N.SAN. GMOSCATI Ematologia 83100 Avellino,A.,O.R.N.SAN. GMOSCATI Ematologia 83100,Avellino,,,,,,,,,,,,,,,,,,,,,,,Importati il giorno 19/04/13 ::: Centri Italiani ::: * My Contacts,* Work,n.cantore@virgilio.it,Work,39-0825-203-235,Work Fax,39-0825-203-235,Indirizzo,Ematologia 83100 Avellino,Ematologia,Avellino,,,83100,,,Profile,http://www2.clinicalresearch.nl/members/cic.asp?cic=789&team=1,città,Avellino,team,"Storti, Gabriella-Cantore, Nicola-Volpe, Silvestro-Egidio, Fina"
+
+	  });
+	  
+	  console.log(google_contacts_csv);
+	  //console.log(_.toStr(result));
+	  
+	  
+	  
+}	
+
+</script>
+

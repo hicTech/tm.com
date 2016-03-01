@@ -1,0 +1,84 @@
+TODO:
+- i carousel debbono essere calcolati solo quando uno di loro e visibile
+- per ora l'oreintationChange è gestito un po a cazzi (refresh il tutto passando come parametro nell'url la pagina corrente
+  al momento della rotazione del device....in futuro andrebbe fatta meglio)
+
+
+MARCO:
+
+	todo:
+
+		- se mettiamo le mappe mettiamo il marker "mia posizione"
+		- esternalizza onOrientationChange che mi pare che non c'è
+		- inibitore di orinetazioni
+		- convertitore base64
+		
+			<script type="text/javascript">
+			$("#canvas").click(function(){
+				getBase64Image("1.gif",function(d){alert(d)});
+			
+			})
+			
+			
+			function getBase64Image(img_path, successFunction) {
+				var img=new Image();
+				img.src=img_path;
+				
+				img.onload = function() {
+				    var canvas = document.createElement("canvas");
+				    canvas.width = img.width;
+				    canvas.height = img.height;
+				    var ctx = canvas.getContext("2d");
+				    ctx.drawImage(img, 0, 0);
+				    var dataURL = canvas.toDataURL();
+				    if(!!successFunction)
+				    	successFunction(dataURL)
+			    }
+			
+			}
+			
+			
+			</script>
+
+		
+
+		- le callback dei makeScrollable, refreshCarousel ecc sono funzioni interne ad appML? se si famole globali co
+		- risolvere il problema di mettere HTML nei carousel senza che questi ereditino tutti gli style
+		- si sono rotti i due tasti affiancati in "customized button"
+		- prova se cacciando i gradienti nei <li> scrolla meglio (in più bisognerebbe vedere se abbassando il trashhold dello scrollable se migliora)
+		- sembra che gli onclick="" siano fottuti.... sarà il prevent default
+	
+	features:
+		- adressbar
+		- input hook
+		- enviroment
+		- integrazione _.js
+		- l'intera app viene creata dal json
+		
+
+	cambiamenti:
+		- di default le page sono non scrolabili
+
+
+
+
+FABRIS:
+
+
+-) makeScrollable non funge se non gli dai la callback
+
+-) cerca hiddenAddressbar, se messo a true nasconde la barra dell'indirizzo di safari, se è true quindi bisogna considerare nei calcoli delle dimensioni l'incremento di spazio
+   ho già predisposto tutto in findWindowDimensions() trovi 3 righe commentate, se verificati gli if incremento deve essere 110. NOTA: su iPad la questione di nascondere l'addressbar
+   non funge, giustamente essendoci molto + spazio non serve molto nasconderla (cioè srvirebbe lo so! ma lo sai come sono loro di apple :) )
+
+-) onPanel e offPanel e scattare gli onPage e gli offPage quando scattano gli onPanel (offPage sembra non funzionare)
+
+-) se possibile ripuliamo tutti quegli start che ci sono, andrebbe anche bene se in appML_options fosse possibile specificare funzioni da invocare tipo: beforeAppMLTraducion(), afterAppMLTraduction()
+   (che posi sarebbe appMLready) insomma metterei queste cose in appML_options.
+
+-) vedi come volgiamo sistemare al meglio il json appML_options
+
+-) le funzioni pubbliche si chiamano un po appML... un po appManager.... uniformiamo i nomi (lo avrei fatto anche io ma non so non vorrei combinare casini)
+   e poi con i nomi non sono molto bravo :)
+
+

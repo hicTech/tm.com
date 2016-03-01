@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+
+
+    <title>centri UE</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+</head>
+
+<body style="font-size:10px">
+    <div class="title"></div>
+    <table style="width:100%" border=1>
+        <tr style="background-color:#666; color:white; font-size:15px">
+            <td style="min-width:600px">CSV mail tutto EBMT: <span id="all_ammount"></span></td>
+            <td style="min-width:600px">CSV mail EBMT italiani: <span id="ita_ammount"></td>
+            <td style="min-width:600px">CSV mail EBMT non italiani: <span id="not_ita_ammount"></td>
+            <td style="min-width:600px">CSV indirizzi EBMT italiani: <span id="address_ita_ammount"></td>
+            <td style="min-width:600px">CSV fax EBMT italiani: <span id="fax_ita_ammount"></td>
+            <td style="min-width:600px">CSV fax EBMT non italiani: <span id="fax_not_ita_ammount"></td>
+        </tr>
+        <tr>
+            <td id="all" valign="top"></td>
+            <td id="ita" valign="top"></td>
+            <td id="not_ita" valign="top"></td>
+            <td id="address_ita" valign="top"></td>
+            <td id="fax_ita" valign="top"></td>
+            <td id="fax_not_ita" valign="top"></td>
+        </tr>
+    </table>
+    
+</body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+<script src="cic_all.js"></script>
+<script>
+    $(document).ready(function() {
+
+        var keys = _.keys(cic_all);
+        
+        
+        /* ALL */
+        var all_ammount = 0;
+        var all_html = "contact_id,CIC,CNAME,city,email<br>";
+        _.each(keys, function(key,index) {
+            var city = cic_all[key].city;
+            var cic = cic_all[key].cic;
+            var name = cic_all[key].name;
+            var tel = cic_all[key].tel;
+            var fax = cic_all[key].fax;
+            var address = cic_all[key].address;
+            var emails = cic_all[key].emails.length;
+            var emailsArr = cic_all[key].emails;
+            _.each(emailsArr,function(email,index){
+                all_ammount++;
+                all_html += cic+"_"+parseInt(index+1)+","+cic+","+name+","+city+","+email+"<br>";
+            });
+        });
+        $("#all_ammount").html(all_ammount);
+        $("#all").html(all_html);
+        
+        
+        /* ITA */
+        var ita_ammount = 0;
+        var ita_html = "contact_id,CIC,CNAME,city,email<br>";
+        _.each(keys, function(key,index) {
+            if(cic_all[key].ita){
+                var city = cic_all[key].city;
+                var cic = cic_all[key].cic;
+                var name = cic_all[key].name;
+                var tel = cic_all[key].tel;
+                var fax = cic_all[key].fax;
+                var address = cic_all[key].address;
+                var emails = cic_all[key].emails.length;
+                var emailsArr = cic_all[key].emails;
+                _.each(emailsArr,function(email,index){
+                    ita_ammount++;
+                    ita_html += cic+"_"+parseInt(index+1)+","+cic+","+name+","+city+","+email+"<br>";
+                });
+            }
+            
+        });
+       
+        
+    $("#ita_ammount").html(ita_ammount);
+    $("#ita").html(ita_html);
+
+
+
+
+        /* not-ITA */
+        var not_ita_ammount = 0;
+        var not_ita_html = "contact_id,CIC,CNAME,city,email<br>";
+        _.each(keys, function(key,index) {
+            if(!cic_all[key].ita){
+                var city = cic_all[key].city;
+                var cic = cic_all[key].cic;
+                var name = cic_all[key].name;
+                var tel = cic_all[key].tel;
+                var fax = cic_all[key].fax;
+                var address = cic_all[key].address;
+                var emails = cic_all[key].emails.length;
+                var emailsArr = cic_all[key].emails;
+                _.each(emailsArr,function(email,index){
+                    not_ita_ammount++;
+                    not_ita_html += cic+"_"+parseInt(index+1)+","+cic+","+name+","+city+","+email+"<br>";
+                });
+            }
+
+        });
+        $("#not_ita_ammount").html(not_ita_ammount);
+        $("#not_ita").html(not_ita_html);
+        
+        
+        
+        
+        /* address_ITA */
+        var address_ita_ammount = 0;
+        var address_ita_html = "contact_id,CIC,CNAME,city,address<br>";
+        _.each(keys, function(key,index) {
+            if(cic_all[key].ita){
+                var city = cic_all[key].city;
+                var cic = cic_all[key].cic;
+                var name = cic_all[key].name.replace(",","").replace(",","").replace(",","").replace(",","").replace(",","").replace(",","");
+                var tel = cic_all[key].tel;
+                var fax = cic_all[key].fax;
+                var address = cic_all[key].address.replace(",","").replace(",","").replace(",","").replace(",","").replace(",","").replace(",","");
+                var emails = cic_all[key].emails.length;
+                var emailsArr = cic_all[key].emails;
+                
+                var address = escape(address);
+               
+                address_ita_ammount++;
+                address_ita_html += cic+"_"+parseInt(index+1)+","+cic+","+name+","+city+","+address+"<br>";
+               
+            }
+            
+        });
+       $("#address_ita_ammount").html(address_ita_ammount);
+       $("#address_ita").html(address_ita_html);
+        
+        
+        /* fax ITA */
+        var fax_ita_ammount = 0;
+        var fax_ita_html = "contact_id,CIC,CNAME,fax<br>";
+        var duplicate_fax_ita = [];
+        _.each(keys, function(key,index) {
+            if(cic_all[key].ita){
+                var city = cic_all[key].city;
+                var cic = cic_all[key].cic;
+                var name = cic_all[key].name.replace(",","").replace(",","").replace(",","").replace(",","").replace(",","").replace(",","");
+                var tel = cic_all[key].tel;
+                var fax = cic_all[key].fax;
+                var address = cic_all[key].address;
+                var emails = cic_all[key].emails.length;
+                var emailsArr = cic_all[key].emails;
+                
+                var address = escape(address);
+
+
+                if(fax != ""){
+
+                   var formatted_fax = fax.replace(/\D/g, "");
+
+                    if(duplicate_fax_ita.indexOf(formatted_fax) == -1){
+                        duplicate_fax_ita.push(formatted_fax);
+                        fax_ita_ammount++;
+                        fax_ita_html += cic+"_"+parseInt(index+1)+","+cic+","+name+","+formatted_fax+"<br>";
+                    }
+
+
+                }
+            }
+
+        });
+        if(hasDuplicate(duplicate_fax_ita)){
+            console.log("attenzione fax italiano duplicato");
+        }
+      $("#fax_ita_ammount").html(fax_ita_ammount);
+     $("#fax_ita").html(fax_ita_html);
+
+
+
+
+
+
+        /* fax not_ITA */
+        var fax_not_ita_ammount = 0;
+        var fax_not_ita_html = "city,fax<br>";
+        var duplicate_fax_not_ita = [];
+        _.each(keys, function(key,index) {
+            if(cic_all[key].city != "Italy"){
+                var city = cic_all[key].city;
+                var cic = cic_all[key].cic;
+                var name = cic_all[key].name.replace(",","").replace(",","").replace(",","").replace(",","").replace(",","").replace(",","");
+                var tel = cic_all[key].tel;
+                var fax = cic_all[key].fax;
+                var address = cic_all[key].address;
+                var emails = cic_all[key].emails.length;
+                var emailsArr = cic_all[key].emails;
+
+                var address = escape(address);
+
+                if(fax != ""){
+
+                    var formatted_fax = fax.replace(/\D/g, "");
+
+
+                    if(duplicate_fax_not_ita.indexOf(formatted_fax) == -1){
+                        duplicate_fax_not_ita.push(formatted_fax);
+                        fax_not_ita_ammount++;
+                        fax_not_ita_html += city+","+formatted_fax+"<br>";
+
+                    }
+
+
+                }
+            }
+
+        });
+
+
+
+        if(hasDuplicate(duplicate_fax_not_ita)){
+            console.log("attenzione fax not_italiano duplicato");
+        }
+        $("#fax_not_ita_ammount").html(fax_not_ita_ammount);
+        $("#fax_not_ita").html(fax_not_ita_html);
+
+
+
+        function hasDuplicate(arr){
+            return (arr.length != _.uniq(arr).length);
+        }
+        
+        
+        
+
+        
+    });
+</script>
+
+</html>
+
+
+
+
+
+
+
+

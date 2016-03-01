@@ -1,0 +1,526 @@
+contact_id,CIC,CNAME,fax
+7407_1,7407,PRST,496963014202
+8005_4,8005,EBMT Executive & JACIE Office,34934519583
+8401_5,8401,BSBMT Registry,442071888411
+8402_6,8402,Swiss Blood Stem Cell Transplantation Group (SBST),41612652735
+8403_7,8403,Lymphoma Working Party,496221565813
+8404_8,8404,Austrian SCT Registry (ASCTR),431404002511
+8405_9,8405,Turkish BM Transplant Registry,903123196
+8407_10,8407,DRST Data Office,497311507502
+8409_12,8409,Aplastic Anaemia Working Party,4420703464689
+8410_13,8410,Autoimmune Diseases Working Party,33142499478
+8411_14,8411,Transplant-related Complications and Quality of Life after SCT WP,34932607353
+8416_17,8416,Czech Stem Cell Transplantation Registry,420224963118
+8417_18,8417,Paediatric Diseases Working Party,431401707000
+8419_19,8419,Spanish Haematopoietic Tranplantation Group,34913913383
+8421_21,8421,EBMT Paris Study Office / CEREST-TC,33171970488
+8422_22,8422,EBMT Study Coordination Office,004971149008723
+8423_23,8423,Agence de la Biomédécine,33155936930
+8424_24,8424,SFGM-TC Registry,33148226658
+8425_25,8425,Dutch National Registry Clinical Trial Center,310107041028
+8430_27,8430,UK Paediatric BMT Registry,441173428628
+8450_29,8450,EBMT Trials Office,442071888406
+10114_36,10114,Kansai Medical University,81728042872
+10115_37,10115,H. Lee Moffitt Cancer Center,18137458468
+10121_39,10121,Janvossensteeg 38,0715266923
+10123_41,10123,Princess Margaret Hospital,4169466585
+10127_43,10127,Uilensteele 81-9,31020444641
+10133_46,10133,Europdonor Foundation,31715210457
+10147_59,10147,Rambam Medical Centre,048543704
+10148_60,10148,Hôpital Saint Louis,33142433945
+10152_61,10152,IRGHET,33143943239
+10164_71,10164,Polish Stem Cell Bank,48224364050
+10167_74,10167,Peking University People´s Hospital,008601088324577
+10169_76,10169,Ribeirao Preto Medical School University of Sao Paulo,551636022229
+10170_77,10170,medical School Ribeirao Preto University of Sao Paulo,551636331144
+10217_82,10217,Bachstraat22,31243614277
+10218_83,10218,Oncology Institute of Vojvodina,381216613741
+10219_84,10219,Fred Hutchinson Cancer Research Center,12066676124
+10220_85,10220,Keio University School of Medicine,8133533515
+10222_87,10222,Luzerner Kantonsspital,0412055227
+10223_88,10223,Robert Bosch Krankenhaus Stuttgart,004971181013547
+10224_89,10224,Sant-Louis,0033142499823
+10225_90,10225,King Faisal Specialist Hospital & Research Centre,9662667777764823
+10227_91,10227,Instituto Nacional de Cancerología,525555734237
+10229_93,10229,Department of Hematology,5552469670
+10313_94,10313,St James´s Hospital,35314162302
+10316_97,10316,Medical University of Vienna,004301404005701
+10317_98,10317,Kings College Hospital,02032992632
+10318_99,10318,Isala Klinieken,0031384242787
+10320_101,10320,UMC Utrecht,31887556241
+10322_103,10322,City of Hope,6263018116
+10323_104,10323,Westmead Hospital,61296892331
+10387_106,10387,Anzak Research Institute,61297679101
+10405_110,10405,University of Calgary,4032108176
+10406_111,10406,CHRU Besançon,0381668415
+10407_112,10407,Radboud University Nijmegen Medical Centre,0031243618873
+10408_113,10408,Vanderbilt University,6159361812
+10495_117,10495,H. Longtinstr 53,3225440257
+10779_121,10779,LUMC / WAKZ,31715240198
+10781_123,10781,LUMC,0715263060
+10782_124,10782,4 Migdal Eder,97229933359
+10783_125,10783,Royal London Hospital,4402035941858
+10786_127,10786,Careum Bildungszentrum,41432225200
+10787_128,10787,CHRU Besançon,0381668416
+10788_129,10788,University of Crete,3028103902778
+0012_131,0012,THERAKOS Inc.,411344864111
+0014_132,0014,SANOFI ONCOLOGY,310356998683
+0015_133,0015,Miltenyi Biotec GmbH,49220485197
+0022_135,0022,Alexion Pharma International Sarl,410213184005
+0023_136,0023,Neovii Biotech GmbH,49889888816
+0026_137,0026,Merck Sharp & Dohme (MSD),19087351685
+0027_138,0027,EXEM Consulting,41916496021
+0029_140,0029,Clinigen Group Limited,441283494341
+0030_141,0030,Sandoz International GmbH,4980244762970
+0033_143,0033,Gilead Sciences Europe Ltd.,4402087446773
+0034_144,0034,Celgene International SARL,41327298406
+0035_145,0035,Medac,4941038006663
+0036_146,0036,Kiadis Pharma Netherlands B.V,31203140251
+0038_148,0038,Remedy Informatics,18017333301
+0040_149,0040,Amgen (Europe) GmbH,41413690405
+0042_150,0042,Pierre Fabre Médicament,33149109693
+0101_152,0101,Klinikum Osnabrueck,495414056699
+0104_153,0104,Klinikum Chemnitz gGmbH,4937133343047
+0106_154,0106,Klinikum Ernst von Bergmann,00493312416000
+0110_156,0110,Hospital son LLatzer,34871202191
+0124_158,0124,ZSIS Universitätsklinikum Knappschaftskrankenhaus Bochum GmbH,4902342993459
+0128_159,0128,The Ipswich Hospital NHS Trust,441473703720
+0134_160,0134,Universitat Bonn,4922828722635
+0142_163,0142,Universitätsmedizin Mannheim,496213834204
+0145_164,0145,Robert-Bosch-Krankenhaus,4971181013086
+0147_165,0147,St. Marien-Hospital,492381182252
+0152_166,0152,Klinikum Augsburg ,00498214003344
+0153_167,0153,Asklepios Klinik St. Georg,49401818854226
+0156_168,0156,University Hospital Ostrava,420597372149
+0158_170,0158,Centre Hospitalier Universitaire La Conception,33491384154
+0159_171,0159,University Hospital Merkur,38512431412
+0160_172,0160,Hôpital Necker,33144495140
+0161_173,0161,Tel Aviv Sourasky Medical Center,97236974629
+0164_176,0164,CHR Orléans Hôpital de la source,33238514764
+0167_177,0167,National Taiwan University Hospital,886223816716
+0168_178,0168,Hacettepe University,903124460843
+0169_179,0169,Gazi Universitesi Tip Fakültesi Hastanesi,903122236714
+0170_180,0170,Karadeniz Technical University,00904623775526
+0171_181,0171,Medical University of Lodz,48426895192
+0178_182,0178,Sectia Clinica de Hematolgoie si,40265218739
+0179_183,0179,Universidade Federal do Rio de Janeiro,552125622460
+0180_184,0180,Hospital Amaral Carvalho,551436021381
+0182_186,0182,Gazi University School of Medicine,9003122150143
+0183_187,0183,Centre National de Greffe de Moelle ,21671565604
+0187_189,0187,Adnan Menderes University Med. Faculty,902562146495
+0188_190,0188,Shiraz University of Medical Sciences,00987116285697
+0189_191,0189,Klinikum Schwabing,4989306839543811
+0190_192,0190,Klinikum Frankfurt (Oder) GmbH,493355484602
+0194_194,0194,Centre Hospitalier de Meaux,0164350304
+0196_195,0196,University Children`s Hospital,4993120127787
+0197_196,0197,Haukeland University Hospital,4755972950
+0198_197,0198,Clinic Centre University Sarajevo,38733297160
+0199_198,0199,Hopital Victor Dupouy,330134231012
+0200_199,0200,St. Antonius Hospital,31306056357
+0201_200,0201,Hôpital Necker,33144495070
+0202_201,0202,University Hospital,41612654450
+0203_202,0203,Leiden University Hospital,31715266755
+0204_203,0204,Klinik fuer Innere Medzin III,4973150045655
+0205_204,0205,Imperial College ,442087429335
+0206_205,0206,Rigshospitalet,4535454841
+0207_206,0207,Hopital St. Louis,33142499636
+0208_207,0208,University Hospital,41442554568
+0209_208,0209,University Hospital Gasthuisberg,3216346881
+0211_210,0211,Hospital Sirio-Libanes,551131558957
+0212_211,0212,Karolinska University Hospital,4687748725
+0214_212,0214,Hospital Clinic,34932275484
+0216_214,0216,Royal Free Hospital and School of Medicine,442077940645
+0218_216,0218,Royal Marsden Hospital,442086429634
+0219_217,0219,University of Helsinki,358947174707
+0220_218,0220,Donor Registry,442072848331
+0221_219,0221,University Hospital Bern,41316323757
+0223_220,0223,Universität Tübingen,497071293671
+0224_221,0224,University College London Hospital,442073809571
+0225_222,0225,Turku University ,35823133043
+0228_225,0228,Western General Hospital,441315371172
+0230_226,0230,Programme de Transplantation&Therapie Cellulaire,33491223443
+0233_229,0233,Hopital Jean Minjoz,33381618215
+0234_230,0234,Cliniques Universitaires St. Luc,3227648959
+0235_231,0235,Rikshospitalet,472307470
+0236_232,0236,Hospital de la Princesa,34915202326
+0237_233,0237,Radboud University - Nijmegen Medical Centre,31243542080
+0238_234,0238,Hosp. Reina Sofia,34957010429
+0239_235,0239,University Medical Centre,31887555489
+0241_237,0241,Centre Leon Berard,33478782740
+0242_238,0242,Hospital U. Marqués de Valdecilla,34942203450
+0243_239,0243,Great Ormond Street Hospital Childrens Charity,442078298640
+0244_240,0244,Bone Marrow Transplant Unit,441413017142
+0246_241,0246,Erasmus MC-Daniel den Hoed Cancer Centre,31107041004
+0247_242,0247,Academisch Ziekenhuis bij de Universiteit,31206912231
+0251_244,0251,Centre Hospitalier Universitaire,0231272543
+0252_245,0252,Hôpital Henri Mondor,33149812067
+0253_246,0253,CHU Nantes,33240083250
+0254_247,0254,Yorkshire Blood & Marrow Transplant Programme,441132065184
+0255_248,0255,Department of Haematology,441865235260
+0256_249,0256,Div. Stem Cell Transplantation and Immunotherapy,494315975803
+0257_250,0257,Hope Directorate,35314102302
+0258_251,0258,Hadassah University Hospital,97226422731
+0259_252,0259,University Hospital,492017235961
+0260_253,0260,Hospital Santa Creu i Sant Pau,34935565601
+0261_254,0261,Hôpitaux Universitaires de Genève,41223727288
+0263_255,0263,The Trustee of London Clinic,442076167622
+0264_256,0264,Hopital La Miletrie,33549443863
+0266_258,0266,University Hospital,4618540412
+0267_259,0267,CHU Bordeaux,330557656514
+0268_260,0268,Belfast City Hospital,442890263870
+0270_261,0270,Hopital A. Michallon,33476765661
+0271_262,0271,University Hospital Innsbruck,4351250425615
+0272_263,0272,Hopital Bretonneau,33247473811
+0273_264,0273,CHU ESTAING,33473750067
+0276_266,0276,Adult HSCT unit,441912825932
+0277_267,0277,Hôpital HURIEZ,33320444330
+0281_269,0281,Patras University Medical School,302610993950
+0282_270,0282,Hospital Clínico Universitario,34963987820
+0283_271,0283,University Hospital,4646176021
+0284_272,0284,Birmingham Heartlands Hospital,441217667530
+0289_277,0289,Sahlgrenska University Hospital,4631825736
+0290_278,0290,Klinikum Karlsruhe gGmbH,497219743009
+0291_279,0291,Inst. Português de Oncologia do Porto,351225084023
+0295_281,0295,,495115328041
+0297_282,0297,Klinikum der Johann Wolfgang Goethe-Universität,4969630138757326
+0300_285,0300,Inst. Portugues Oncologia,351217229863
+0301_286,0301,Hopital d`Enfants de la Timone CHU,33491386832
+0302_287,0302,University Hospital Center Rebro,0038512376017
+0303_288,0303,Department of Haematology,4402920745442
+0308_293,0308,Medical University Graz,433163854087
+0309_294,0309,Fundación Jiménez Díaz,34915496670
+0310_295,0310,Klinik für Tumorbiologie,497612062205
+0311_296,0311,Deutsche Klinik für Diagnostik,49611577313
+0316_297,0316,Kantonsspital Aarau,41628386052
+0318_298,0318,Charles Univ. Prague,420267163058
+0323_300,0323,Hospital Universitario Virgen de la Arrixaca,0034968369088
+0324_301,0324,Kantonsspital St.Gallen,41714942878
+0326_302,0326,Universitätsklinkum Giessen und Marburg GmbH,496419943429
+0327_303,0327,Kaplan Medical Centre,97289441706
+0329_304,0329,Hospital Sao Joao,351225512227
+0333_308,0333,Roosevelt Hospital,421484134049
+0334_309,0334,University Children`s Hospital,41442667914
+0336_310,0336,Charité-CVK University Medicine Berlin,4930450566919
+0337_311,0337,Institute for Neuroimmunology,4940741056598
+0338_312,0338,Martin-Luther-Universität Halle-Wittenberg,493455577143
+0339_313,0339,ZNA,3232177232
+0342_314,0342,Klinikum Hannover - Siloah,495119272810
+0344_315,0344,NHS Grampian,441224840714
+0345_316,0345,Rambam Medical Center,97248542343
+0346_317,0346,Specialized Children`s Oncohematology Hospital,35929307045
+0348_318,0348,University Hospital Aachen,492418082449
+0349_319,0349,CHNDRF,3271934705
+0353_320,0353,CHR La Citadelle,3242256913
+0356_322,0356,Gemeinnützige Salzburger,4366244822898
+0357_323,0357,Westpfalz-Klinikum GmbH,496312031548
+0358_324,0358,Mother and Child Health Institute,381112697232
+0359_325,0359,Otto-von-Guericke-Universität,493916713267
+0360_326,0360,Medisch Spectrum Twente,31534873085
+0361_327,0361,Complejo Hospitalario de A Coruña,34981178265
+0366_328,0366,Asklepios Klinik Altona,49401818814904
+0367_329,0367,University Medical Center Schleswig-Holstein,494515002410
+0369_331,0369,Department of Internal Medicine,9611345325
+0372_332,0372,GATA BMT Center,903123044150
+0373_333,0373,University Clinical Center,381113065112
+0381_335,0381,University Clinic for Haematology,38923110548
+0382_336,0382,Hospital Univ. 12 de Octubre,34913908510
+0387_339,0387,Centre for Clinical Haematology,441216978401
+0389_340,0389,University Hospital Leipzig,493419713059
+0390_341,0390,Heinrich Heine Universität,492118118853
+0391_342,0391,The Norfolk and Norwich University Hospital,441603286918
+0393_344,0393,Hospital Universitario Cruces,34946006076
+0394_345,0394,University Hospital of North Staffordshire,441782555286
+0396_346,0396,Kuopio University Hospital,35817172218
+0397_347,0397,King Faisal Specialist Hospital & Research Centre,99614423941
+0398_348,0398,Gloucestershire Hospitals NHS Foundation Trust,448454222558
+0399_349,0399,Hacettepe University Children`s Hospital,903123053028
+0401_350,0401,First Affiliated Hosp. Zhejiang University,8657187236562
+0402_351,0402,Gaziantep University Medical School,903423606413
+0405_352,0405,The Dudley Group of Hospitals NHS Trust,441384244248
+0406_353,0406,Centre Hospitalier de Saint Quentin,0033323067248
+0407_354,0407,University Hospital Dubrava,38512903725
+0408_355,0408,Galway University Hospitals,35391542469
+0409_356,0409,Beilinson Hospital,97239378130
+0410_357,0410,Hospital Univ.Materno Infantil Gregorio Marañon,34915290248
+0411_358,0411,The Russian Children´s Research Hospital,74959369120
+0412_359,0412,Ankara Bayindir Hospital,903122851644
+0418_362,0418,Makassed University Hospital,9611646589
+0420_364,0420,EUROCORD,33142499634
+0421_365,0421,Complexo Hospitalario Universitario de Vigo,34986816097
+0422_366,0422,Hospital Vall d`Hebron,34934893089
+0424_368,0424,Centre Hospitalier Universitaire Sainte-Justine,5143454792
+0426_370,0426,Hospital de León,34987222312
+0427_371,0427,Fundeni Clinical Institute,40213180423
+0429_373,0429,Medizinische Klinik,494488502679
+0433_375,0433,Institut Catalá d`Oncologia,34972200978
+0435_376,0435,University of Crete School of Medicine and,00302810392426
+0437_377,0437,Inonu University Turgut Özal Medical Center,904223410728
+0438_378,0438,University of Athens,0032107456698
+0439_379,0439,AL Khalidi Medical Center,96264616801
+0440_380,0440,Anadolu Medical Center Hospital,902626540599
+0450_381,0450,Parkside Hospital,442086059103
+0451_382,0451,Unidad de trasplantes Clínica León XIII,5742620926
+0452_383,0452,University Hospital Motol,420224436519
+0456_386,0456,Albert Albert´s Stem Cell Transplantation Centre,27129932429
+0457_387,0457,Medicalpark Bahçelievler Hospital,902124841829
+0458_388,0458,Poole Hospital NHS Foundation Trust,441202448659
+0501_389,0501,Royal Liverpool University Hospital,441517065810
+0503_391,0503,Institut Gustave Roussy,33142115275
+0505_392,0505,Klinik / Poliklinik für Kinderheilkunde,492518347828
+0506_393,0506,A.Z. Sint-Jan,3250452593
+0507_394,0507,University Children`s Hospital in Krakow,48126574089
+0508_395,0508,Childrens Hospital Affiliate of Vilnius,37052720368
+0509_396,0509,Evangelisches Krankenhaus ,023815891553
+0510_397,0510,Donor registry,4578455015
+0512_398,0512,University of Cape Town Faculty of Health Sciences,27214488607
+0513_399,0513,Klinikum Grosshadern,498970954242
+0515_400,0515,Helsinki University Central Hospital,358947175587
+0518_401,0518,Klinik für Hämatologie Onkologie und,004930940152189
+0519_402,0519,Helios St. Johannes Klinik Duisburg,00492035462479
+0521_403,0521,Department of Paediatric Haematology,441617018410
+0523_404,0523,Hôpital de l`ARCHET I,33492035895
+0530_410,0530,Klinik für Innere Medizin C,493834866713
+0531_411,0531,Hospital Clínico,34976561793
+0533_412,0533,Universitätsklinikum Jena,4936419324237
+0534_413,0534,University of Cologne,4922147854556639
+0535_414,0535,University Hospital,497071294713
+0536_415,0536,Kath. Krankenhaus Hagen gGmbH,492331129222
+0537_416,0537,Hospital de Gran Canaria `Dr Negrin`,34928449450
+0538_417,0538,DCTK,48713621512
+0539_418,0539,St. George`s Hospital,442087252859
+0540_419,0540,Institute of Transfusion Med & Immunology,4962137069496
+0541_420,0541,St. Vincent`s Hospital,3532837719
+0546_423,0546,University Medical Center Groningen (UMCG),31503615960
+0547_424,0547,Haga Hospital (Leyenburg),31702102209
+0548_425,0548,Isala klinieken,31384544514
+0552_426,0552,Universitätsklinikum Göttingen,49551392914
+0553_427,0553,Jagiellonian University,48124247426
+0556_428,0556,Dept. Haematology and Stem Cell Transplant,3614558252
+0558_430,0558,Klinkum Rechts der Isar,498941404879
+0559_431,0559,Hospital Univ. Virgen de las Nieves,34958020132
+0561_432,0561,George Papanicolaou General Hospital Thessaloniki,302313307521
+0565_433,0565,University Hospital Maastricht,31433876281
+0566_434,0566,Addenbrookes Hospital,44223274669
+0568_435,0568,Herlev Hospital,4544532518
+0570_436,0570,Servicio de Hematologí-Hemoterapia,34981951081
+0571_437,0571,Royal Devon and Exeter Hospital,4401392402928
+0572_438,0572,Pediatrics,97235303031
+0574_439,0574,University Hospital,00420585428102
+0575_440,0575,Makarios Hospital III,35722603207
+0576_441,0576,Hospital Regional de Málaga,34951030168
+0577_442,0577,Hospital de Navarra,0034848428385
+0578_443,0578,Donor registry,41313808180
+0579_444,0579,Welsh Bone Marrow Donor Registry,441443622176
+0580_445,0580,King Hussein Cancer Centre,96265353001
+0582_446,0582,Clinic of Hematology,381112666164
+0583_447,0583,National Haematology Centre,3717821154
+0584_448,0584,Hospital Vall d`Hebron,34932746015
+0585_449,0585,Universität Rostock,493814947422
+0586_450,0586,Dr. Horst-Schmidt-Kliniken,49611433012
+0588_452,0588,VU University Medical Center,31204442601
+0589_453,0589,Baskent University Hospital,903223271274
+0590_454,0590,Charité - Campus Benjamin Franklin,493084454021
+0591_455,0591,Belorussian Centre for Paediatric,375172654222
+0593_456,0593,Division of Pediatric Hematology/Oncology,4331638513450
+0594_457,0594,Elisabethinen-Hospital,4373276764406
+0596_458,0596,L´Hôpital Erasme,3225555097
+0597_459,0597,University Hospital Brno,420532233603
+0598_460,0598,Donostia Hospital,34943460758007098
+0599_461,0599,Borsod University Hospital,3646515252
+0601_462,0601,Manchester Royal Infirmary,4401612764814
+0602_463,0602,Klinikum Bremen - Mitte,494214973308
+0605_465,0605,Landspitali University Hospital,3545435539
+0608_467,0608,The Great Western Hospital,441793604292
+0609_468,0609,Hospital Ampang,60342957026
+0610_469,0610,University Hospital,421263532167
+0611_470,0611,Hospital Rio Hortega,34983420429
+0612_471,0612,Hospital del SAS,34956032054
+0613_472,0613,Hospital Universitari Germans Trias i Pujol,34934978995
+0614_473,0614,University Hospital Eppendorf,4940741053795
+0615_474,0615,Hospital Ramón y Cajal,34913368637
+0617_476,0617,Ankara University Faculty of Medicine ,903123196077
+0618_477,0618,Akdeniz University Medical School,902422274320
+0619_478,0619,Royal United Hospital,01225824730
+0620_479,0620,University of Ankara,903123620581
+0621_480,0621,Ege University ,902323904244
+0622_481,0622,Evangelismos Hospital,302107201103
+0624_483,0624,Hopital Purpan,33561777541
+0625_484,0625,Klinikum Nürnberg,499113983657
+0627_485,0627,Erciyes Medical School,903524379348
+0628_486,0628,Ege University Medical School,902323903518
+0630_487,0630,Universitair Ziekenhuis Brussel,3224776210
+0632_489,0632,Jessa Ziekenhuis,3211309558
+0633_490,0633,Shariati Hospital,98218004140
+0634_491,0634,University Department of Hematology,4589497599
+0635_492,0635,Tampere University Hospital,358331164388
+0636_493,0636,Hospital de Santa Maria,351217805639
+0637_494,0637,Apollo Speciality Hospital,91444363646
+0640_495,0640,University Med. Center,38615222722
+0641_496,0641,Poznan University of Medical Sciences,48618474356
+0642_497,0642,University Hospital of Asturias,34985107979
+0643_498,0643,Diagnostic & Therapeutic Center ofAthens,3026845089
+0644_499,0644,Vilnius University Hospital Santariskiu Klinikos,37052365088
+0645_500,0645,Philipps Universitaet Marburg,4964215866358
+0646_501,0646,Heilig Hartziekenhuis,32051237975
+0648_502,0648,University of Debrecen,3652255984
+0650_504,0650,CHRU,33241354582
+0651_505,0651,Universitaetsklinikum,492118116090
+0653_507,0653,Hospital Universitari i Politècnic la Fe,34961246212
+0654_508,0654,Martin-Luther-Univ. Halle-Wittenberg,493455572389
+0656_509,0656,Institute of Hematology and Blood Transfusion,420221977360
+0661_512,0661,Centre Hospitalier Universitaire de Rennes,330299284161
+0663_513,0663,Hospital Universitario La Fe,34961246201
+0664_514,0664,Klinikum Harlaching,498962102443
+0666_515,0666,Gustave Roussy institut de cancérologie,33142115221
+0668_516,0668,Hospital Sant Joan de Deu Materno-Infantil,34932033959
+0670_518,0670,Tel-Aviv Sourasky Medical Center,97236974931
+0671_519,0671,Centre Hospitalier Lyon Sud,330472678880
+0673_521,0673,Universitätsklinikum Hamburg-Eppendorf,4940741058054
+0674_522,0674,Städtisches Klinikum Braunschweig,495315953757
+0677_523,0677,Medical University of Silesia,48322554985
+0678_524,0678,Children`s University Hospital,48817477220
+0679_525,0679,Hospital Universitario Puerta del Mar,34956002297
+0680_526,0680,University of Münster,492518352804
+0681_527,0681,Department of Haematology BMT Unit,302551076154
+0682_528,0682,University of Pécs,3672536365148
+0684_529,0684,Pediatric University Teaching Hospital,421259371991
+0685_530,0685,Akdeniz University School of Medicine,902422488732
+0686_531,0686,Osmangazi University Fac. of Medicine,902222291411
+0688_532,0688,Dokuz Eylul University,902324124846
+0690_533,0690,Oulu University Hospital,35883154139
+0691_534,0691,Ankara Numune Education and,903123113187
+0693_536,0693,Institute of Hematology and Transfusion Medicine,48223496361
+0694_537,0694,Federal Research Center for Pediatric Hematology,4959369169
+0695_538,0695,Samodzielny Publiczny,488153201495605
+0697_539,0697,France Greffe de Moelle Registry,33149983714
+0698_540,0698,Sydney Children`s Hospital,61293821789
+0699_541,0699,University Hospital SPSK 1,48717840112
+0701_542,0701,Klinikum Stuttgart-Olgahospital,49071127872462
+0702_543,0702,Institute Curie,33153104005
+0703_544,0703,Centre Pierre et Marie Curie,21321235226
+0704_545,0704,Southampton General Hospital,02381204313
+0707_547,0707,Royal Hospital for Sick Children,441412019303
+0710_549,0710,RP Group Royal Perth Hospital,61892243449
+0711_550,0711,The Children`s Hospital at Westmead,61298452171
+0712_551,0712,Universitätsklinikum Würzburg,49931201640001
+0713_552,0713,Leicester Royal Infirmary,441162585699
+0714_553,0714,Marmara University School of Medicine,902163266240
+0715_554,0715,Sint Augustinus,3234433009
+0717_555,0717,Nottingham City Hospital,441159627742
+0718_556,0718,Charles University Hospital,420377103719
+0719_557,0719,Ninewells Hospital,441382645731
+0722_558,0722,Hospital Universitari Son Espases,0034971175360
+0725_559,0725,Saint Petersburg State Medical Pavlov University,78122324649
+0726_560,0726,University of Liege,3243668855
+0727_561,0727,Hospital Clínico,34923294624
+0728_562,0728,Hospital Universitario Puerta de Hierro,34911917862
+0729_563,0729,Charles University Hospital,420495832011420495834527
+0730_564,0730,Poznan University of Medical Sciences,48618549356
+0731_565,0731,Umea University Hospital,4690771773
+0732_566,0732,Niño Jesus Children`s Hospital,34915035902
+0734_567,0734,Hospital Universitario La Paz,34917277042
+0735_568,0735,Hospital Morales Meseguer,34969360969
+0736_569,0736,Ysbyty Gwynedd,441248384505
+0737_570,0737,Clínica Universitaria de Navarra,34948172294
+0738_571,0738,Örebro University Hospital,46196024580
+0740_572,0740,University Hospital,4613222042
+0743_574,0743,Hanuschkrankenhaus,4319102185509
+0744_575,0744,University Hospital Gent,3293324048
+0745_576,0745,Charles University Hospital,420224963117
+0746_577,0746,Tartu University Hospital,3727319804
+0747_578,0747,Hôpital Tenon,33156016875
+0749_579,0749,Klinikum Oldenburg,494414032654
+0750_580,0750,University of Jena,493641938306
+0751_581,0751,St.Sawas Oncology Hospital,302106409521
+0752_582,0752,`ST. SOPHIA` CHILDREN`S HOSPITAL,00302107452314
+0753_583,0753,Sultan Qaboos University Hospital,96824141786
+0754_584,0754,Chaim Sheba Medical Center,97235305377
+0755_585,0755,Schneider Children`s Medical Center of Israel,97239253042
+0757_587,0757,Salisbury NHS Foundation Trust,441722333933
+0760_589,0760,Istanbul Tip Fakuoltesi,902125324208
+0761_590,0761,Istanbul University,902124142008
+0763_591,0763,GKT School of Medicine,442073464689
+0764_592,0764,University Hospital Collegium Medicum UMK,48525854867
+0765_593,0765,Royal Bournemouth Hospital,441202300248
+0767_595,0767,Donauspital Vienna,431288023280
+0768_596,0768,St. Bartholomew`s and The Royal London NHS Trust,00448823891
+0769_597,0769,Hospital Universitario Virgen del Rocío,34955013265
+0772_599,0772,Constantiaberg Medi-Clinic,27217614278
+0773_600,0773,Alder Hey Children`s NHS Foundation Trust,4401512525676
+0774_601,0774,Our Lady`s Children`s Hospital,35314563041
+0775_602,0775,Hospital Saint Antoine,33149283375
+0778_603,0778,North Trent BMT Programme (Adults),441142713997
+0780_604,0780,Christie NHS Trust Hospital,441614463300
+0781_605,0781,Birmingham Children`s Hospital,441213338678
+0784_606,0784,Kliniken Essen Süd,4920140892506
+0785_607,0785,University of Saarland,4968411623033
+0786_608,0786,UMC of the Johannes Gutenberg University,496131175631
+0787_609,0787,University Regensburg,00499419445543
+0798_620,0798,Canterbury Health Laboratories,6433641067
+0799_621,0799,Medical University of Gdansk,48583492233
+0800_622,0800,The Maria Sklodowska-Curie Memorial Cancer Centre,48226449667
+0804_623,0804,University Hospital Centre,003271921109
+0805_624,0805,Hôpital St. Louis,33142499641
+0806_625,0806,IHOP,33478782703
+0807_626,0807,Charité Universitätsmedizin Berlin,4930450553925
+0808_627,0808,Universitaetsklinikum Dresden,493514585362
+0809_628,0809,University Hospital Erlangen,4991318535984
+0810_629,0810,University of Freiburg,4976127036580
+0816_632,0816,Military Institute of Health Services BMT Unit,48226103098
+0817_633,0817,Wroclaw Medical University,48717703169
+0818_634,0818,Riyadh Armed Forces Hospital,96614783033
+0819_635,0819,Hospital Gregorio Marañón,34915868394
+0820_636,0820,Universitaire Vaudois,41213144180
+0821_637,0821,University Çukurova,903223387444
+0822_638,0822,British Bone Marrow Registry (BBMR),442089572970
+0823_639,0823,Plymouth Hospitals NHS Trust,441752792400
+0824_640,0824,St. László Hospital,3614558226
+0826_642,0826,Hospital dos Capuchos,351213136490
+0828_643,0828,Wilhelminenspital,431491502109
+0829_644,0829,Ospedale Regionale Bellinzona e Valli,41918119044
+0832_645,0832,Blackpool Victoria Hospital,441253306776
+0833_646,0833,Helsinki University Central Hospital,358947175377
+0848_648,0848,Aarhus University,4599321139
+0858_650,0858,King Faisal Specialist Hospital & Research Center,966266777764030
+0859_651,0859,National Hospital of Haematological Diseases,35929701107
+0862_653,0862,Private Medicana International Ankara Hospital,00903122203145
+0864_655,0864,Medstar Antalya Hospital,00902423109290
+0866_656,0866,Division of Paediatrics,4402033126341
+0869_658,0869,National Registry of HSC Voluntary Donors,0040212018828
+0873_660,0873,C.H.U. Hôpital Duchenne,330321993732
+0879_661,0879,Stiftungsklinikum Mittelrhein,00492611371991
+0881_662,0881,Samsun Medicalpark Hastanesi,903623114057
+0901_663,0901,Hospices Civils de Lyon,33478864348
+0906_664,0906,Austrian Bone Marrow Donor Registry,4314082321
+0908_666,0908,University Medicine Greifswald,493834866323
+0909_667,0909,Limassol General Hospital,35725801620
+0910_668,0910,AZ Turnhout,003214406933
+0911_669,0911,Medical Park Antalya Hospital,902423143156
+0912_670,0912,Coltea Clinical Hospital,403874101
+0916_671,0916,Taleghani Hospital,982123031490
+0917_672,0917,Hospital San Pedro,34941298749
+0918_673,0918,Institute for Transfusion Medicine of RM,38923119227
+0919_674,0919,Medical Park Hospitals,902423143353
+0923_676,0923,Urmia Medical Sciences University,984413459935
+0924_677,0924,University Hospital Zürich,0041442554507
+0925_678,0925,Federal Centre of Heart Blood and Endocrinology,78127023765
+0926_679,0926,CHU Lapeyronie,3304673381239194
+0930_683,0930,National Research Center for Hematology,74956124313
+0931_684,0931,First Affiliated Hospital of Soochow University,86051267781850
+0941_685,0941,Centre Henri Becquerel,0033232082283
+0944_686,0944,Hôpital E Muller,330389647747
+0954_687,0954,Central Clinical Hospital,48225991418
+0955_688,0955,University of Amiens: CHU Amiens,33322455797
+0959_689,0959,Hôpital Robert Debre,33326784040
+0960_690,0960,Institut Universitaire d`Hématologie,33142411470
+0963_691,0963,,0033320445963
+0970_692,0970,St Franziskus Hospital,494618162022
+0973_693,0973,Centre Antoine Lacassagne,492031574
+0975_694,0975,Hospital Galdakao,34944007011
+0976_695,0976,Antoni Van Leeuwenhoek Hospital,31205122572
+0977_696,0977,CHRU Limoges,33555056649
+0985_698,0985,FOSCAL-UNAB,353176387747
+0992_700,0992,REDMO,34932010588
+0994_702,0994,Florence Nightingale Sisli Hospital,902123153640
+0996_703,0996,Antwerp University Hospital (UZA),3238214286
+0998_704,0998,Erasmus MC - Sophia Children`s Hospital,312046368011134

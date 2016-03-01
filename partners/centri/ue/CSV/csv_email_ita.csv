@@ -1,0 +1,510 @@
+contact_id,CIC,CNAME,city,email
+8412_1,8412,Solid Tumours Working Party,Italy,bregni.marco@hsr.it
+8412_2,8412,Solid Tumours Working Party,Italy,jobay@chu-clermontferrand.fr
+8412_3,8412,Solid Tumours Working Party,Italy,manuela.badoglio@upmc.fr
+8412_4,8412,Solid Tumours Working Party,Italy,mbregni@milanocuore.eu
+8414_1,8414,Infectious Diseases Working Party,Italy,simone.cesaro@ospedaleuniverona.it
+8414_2,8414,Infectious Diseases Working Party,Italy,rmartino@santpau.cat
+8414_3,8414,Infectious Diseases Working Party,Italy,j.d.c.hoek@lumc.nl
+8420_1,8420,Immunobiology Working Party,Italy,velardi@unipg.it
+8420_2,8420,Immunobiology Working Party,Italy,antoine.toubert@univ-paris-diderot.fr
+8440_1,8440,Italian National BMT Registry - GITMO,Italy,arambaldi@hpg23.it
+8440_2,8440,Italian National BMT Registry - GITMO,Italy,barbara.bruno@hsanmartino.it
+8440_3,8440,Italian National BMT Registry - GITMO,Italy,agnese.camboni@hsanmartino.it
+8440_4,8440,Italian National BMT Registry - GITMO,Italy,rosi.oneto@gmail.com
+8440_5,8440,Italian National BMT Registry - GITMO,Italy,rosi.oneto@gitmo.net
+10130_1,10130,Careggi BMT Unit,Italy,boglione@aou-careggi.toscana.it
+10135_1,10135,Ospedale San Martino,Italy,alberto.marmont@hsanmartino.it
+10404_1,10404,Fondazione IRCCS Policlinico San Matteo,Italy,p.bergamaschi@smatteo.pv.it
+10775_1,10775,IRCCS Policlinico S. Matteo,Italy,c.perotti@smatteo.pv.it
+0019_1,0019,Gentium SpA,Italy,mhoyle@gentium.it
+0019_2,0019,Gentium SpA,Italy,cechart@gentium.it
+0019_3,0019,Gentium SpA,Italy,kislam@gentium.ch
+0109_1,0109,Ospedale dei Bambini,Italy,ottavioziino@yahoo.it
+0109_2,0109,Ospedale dei Bambini,Italy,tropiaserena@yahoo.it
+0109_3,0109,Ospedale dei Bambini,Italy,antonella_grigoli@libero.it
+0119_1,0119,Mazzoni Hospital,Italy,piero.galieni@sanita.marche.it
+0119_2,0119,Mazzoni Hospital,Italy,catia.bigazzi@sanita.marche.it
+0119_3,0119,Mazzoni Hospital,Italy,sadia.falcioni@gmail.com
+0119_4,0119,Mazzoni Hospital,Italy,mariarosa.larocca@sanita.marche.it
+0119_5,0119,Mazzoni Hospital,Italy,stefano-angelini@hotmail.com
+0119_6,0119,Mazzoni Hospital,Italy,ematologia@asl13.marche.it
+0139_1,0139,University of Genova,Italy,gobbi@unige.it
+0139_2,0139,University of Genova,Italy,fpatrone@unige.it
+0139_3,0139,University of Genova,Italy,aballestrero@unige.it
+0157_1,0157,A.R.N.A.S. Civico - Di Cristina,Italy,gpagnucco@ospedalecivicopa.org
+0157_2,0157,A.R.N.A.S. Civico - Di Cristina,Italy,carmen.tomaselli@libero.it
+0157_3,0157,A.R.N.A.S. Civico - Di Cristina,Italy,franbondi@libero.it
+0157_4,0157,A.R.N.A.S. Civico - Di Cristina,Italy,cristina.randazzo@ospedalecivicopa.org
+0157_5,0157,A.R.N.A.S. Civico - Di Cristina,Italy,anxurmerenda@libero.it
+0162_1,0162,Centro di Riferimento Oncologico,Italy,mmichieli@cro.it
+0162_2,0162,Centro di Riferimento Oncologico,Italy,mrupolo@cro.it
+0162_3,0162,Centro di Riferimento Oncologico,Italy,mmazzuccato@cro.it
+0162_4,0162,Centro di Riferimento Oncologico,Italy,sartorivana@virgilio.it
+0162_5,0162,Centro di Riferimento Oncologico,Italy,altedosi@cro.it
+0162_6,0162,Centro di Riferimento Oncologico,Italy,00bernius00@virgilio.it
+0162_7,0162,Centro di Riferimento Oncologico,Italy,szanolin@cro.it
+0163_1,0163,Hospital Guglielmo da Saliceto,Italy,l.cavanna@ausl.pc.it
+0163_2,0163,Hospital Guglielmo da Saliceto,Italy,d.vallisa@ausl.pc.it
+0163_3,0163,Hospital Guglielmo da Saliceto,Italy,a.lazzaro@ausl.pc.it
+0163_4,0163,Hospital Guglielmo da Saliceto,Italy,raffa.pagani@virgilio.it
+0185_1,0185,Hematology & SCT Unit,Italy,p.musto@crob.it
+0185_2,0185,Hematology & SCT Unit,Italy,a.zonno@inwind.it
+0185_3,0185,Hematology & SCT Unit,Italy,fiore.dauria@virgilio.it
+0185_4,0185,Hematology & SCT Unit,Italy,biasea@tiscali.it
+0210_1,0210,ASL Viterbo Polo Ospedaliero Centrale,Italy,emat.mon@asl.vt.it
+0210_2,0210,ASL Viterbo Polo Ospedaliero Centrale,Italy,degemat.mon@asl.vt.it
+0210_3,0210,ASL Viterbo Polo Ospedaliero Centrale,Italy,cinzia.degregoris@asl.vt.it
+0210_4,0210,ASL Viterbo Polo Ospedaliero Centrale,Italy,paoletti.simonetta@asl.vt.it
+0210_5,0210,ASL Viterbo Polo Ospedaliero Centrale,Italy,cristina.mastini@asl.vt.it
+0217_1,0217,Ospedale San Martino,Italy,andrea.bacigalupo@hsanmartino.it
+0217_2,0217,Ospedale San Martino,Italy,alida.dominietto@hsanmartino.it.
+0217_3,0217,Ospedale San Martino,Italy,mariateresa.vanlint@hsanmartino.it
+0217_4,0217,Ospedale San Martino,Italy,teresa.lamparelli@hsanmartino.it
+0217_5,0217,Ospedale San Martino,Italy,francesca.gualandi@hsanmartino.it
+0217_6,0217,Ospedale San Martino,Italy,alberto.marmont@hsanmartino.it
+0217_7,0217,Ospedale San Martino,Italy,rosi.oneto@gmail.com
+0217_8,0217,Ospedale San Martino,Italy,agnese.camboni@hsanmartino.it
+0217_9,0217,Ospedale San Martino,Italy,lucia.frau@hsanmartino.it
+0226_1,0226,Sez. Ematologia - Centro Trapianti,Italy,f.lanza@ospedale.cremona.it
+0226_2,0226,Sez. Ematologia - Centro Trapianti,Italy,p.spedini@ospedale.cremona.it
+0226_3,0226,Sez. Ematologia - Centro Trapianti,Italy,m.tajana@ospedale.cremona.it
+0226_4,0226,Sez. Ematologia - Centro Trapianti,Italy,robi.dist@hotmail.it
+0226_5,0226,Sez. Ematologia - Centro Trapianti,Italy,c.fiamenghi@ospedale.cremona.it
+0226_6,0226,Sez. Ematologia - Centro Trapianti,Italy,d.pagliari@ospedale.cremona.it
+0231_1,0231,S.S.C.V.D Trapianto di Cellule Staminali,Italy,faldam@yahoo.com
+0231_2,0231,S.S.C.V.D Trapianto di Cellule Staminali,Italy,benedetto.bruno@unito.it
+0231_3,0231,S.S.C.V.D Trapianto di Cellule Staminali,Italy,abusca@molinette.piemonte.it
+0231_4,0231,S.S.C.V.D Trapianto di Cellule Staminali,Italy,luisa.giaccone@unito.it
+0231_5,0231,S.S.C.V.D Trapianto di Cellule Staminali,Italy,ballione@molinette.piemonte.it
+0231_6,0231,S.S.C.V.D Trapianto di Cellule Staminali,Italy,stefanodardia@gmail.com
+0231_7,0231,S.S.C.V.D Trapianto di Cellule Staminali,Italy,lfiorillo@molinette.piemonte.it
+0231_8,0231,S.S.C.V.D Trapianto di Cellule Staminali,Italy,manetta_sara@yahoo.it
+0232_1,0232,Univ.`La Sapienza`,Italy,rfoa@bce.uniroma1.it
+0232_2,0232,Univ.`La Sapienza`,Italy,meloni@bce.uniroma1.it
+0232_3,0232,Univ.`La Sapienza`,Italy,vignetti@bce.uniroma1.it
+0232_4,0232,Univ.`La Sapienza`,Italy,iori@bce.uniroma1.it
+0232_5,0232,Univ.`La Sapienza`,Italy,r.ricci@bce.uniroma1.it
+0232_6,0232,Univ.`La Sapienza`,Italy,232@bce.uniroma1.it
+0240_1,0240,Bologna University, S.Orsola-Malpighi Hospital,Italy,giuseppe.bandini@unibo.it
+0240_2,0240,Bologna University, S.Orsola-Malpighi Hospital,Italy,francesca.bonifazi@unibo.it
+0240_3,0240,Bologna University, S.Orsola-Malpighi Hospital,Italy,michele.cavo@unibo.it
+0240_4,0240,Bologna University, S.Orsola-Malpighi Hospital,Italy,mariarosa.motta@unibo.it
+0240_5,0240,Bologna University, S.Orsola-Malpighi Hospital,Italy,simonetta.rizzi@aosp.bo.it
+0240_6,0240,Bologna University, S.Orsola-Malpighi Hospital,Italy,pongilino@hotmail.com
+0240_7,0240,Bologna University, S.Orsola-Malpighi Hospital,Italy,admo@aosp.bo.it
+0248_1,0248,Ospedale Civile,Italy,pescaratmo@virgilio.it
+0248_2,0248,Ospedale Civile,Italy,pasqua.bavaro@tin.it
+0248_3,0248,Ospedale Civile,Italy,paolioso@tin.it
+0248_4,0248,Ospedale Civile,Italy,gabriele.papalinetti@fastwebnet.it
+0248_5,0248,Ospedale Civile,Italy,stella.santarone@virgilio.it
+0248_6,0248,Ospedale Civile,Italy,m.dinicola@unich.it
+0265_1,0265,Fondazione IRCCS Ca Granda Ospedale Maggiore Policlinico,Italy,agostino.cortelezzi@unimi.it
+0265_2,0265,Fondazione IRCCS Ca Granda Ospedale Maggiore Policlinico,Italy,fonida@gmail.com
+0265_3,0265,Fondazione IRCCS Ca Granda Ospedale Maggiore Policlinico,Italy,cannaloro@gmail.com
+0265_4,0265,Fondazione IRCCS Ca Granda Ospedale Maggiore Policlinico,Italy,l.ottani@policlinico.mi.it
+0265_5,0265,Fondazione IRCCS Ca Granda Ospedale Maggiore Policlinico,Italy,elena.tagliaferri@policlinico.mi.it
+0265_6,0265,Fondazione IRCCS Ca Granda Ospedale Maggiore Policlinico,Italy,eleonora.ferretti@policlinico.mi.it
+0274_1,0274,Institute G. Gaslini,Italy,edoardolanino@ospedale-gaslini.ge.it
+0274_2,0274,Institute G. Gaslini,Italy,maurafaraci@ospedale-gaslini.ge.it
+0274_3,0274,Institute G. Gaslini,Italy,giuseppemorreale@ospedale-gaslini.ge.it
+0274_4,0274,Institute G. Gaslini,Italy,carlodufour@ospedale-gaslini.ge.it
+0274_5,0274,Institute G. Gaslini,Italy,francesco.l.frassoni@gmail.com
+0274_6,0274,Institute G. Gaslini,Italy,stefanogiardino@ospedale-gaslini.ge.it
+0274_7,0274,Institute G. Gaslini,Italy,calzasimona@fastwebmail.it
+0274_8,0274,Institute G. Gaslini,Italy,tmosegreteria@ospedale-gaslini.ge.it
+0274_9,0274,Institute G. Gaslini,Italy,marcodeiana@ospedale-gaslini.ge.it
+0279_1,0279,Centro Trapianti di Midollo Osseo,Italy,abiondi.unimib@gmail.com
+0279_2,0279,Centro Trapianti di Midollo Osseo,Italy,a.rovelli@hsgerardo.org
+0279_3,0279,Centro Trapianti di Midollo Osseo,Italy,a.balduzzi@hsgerardo.org
+0279_4,0279,Centro Trapianti di Midollo Osseo,Italy,s.bonanomi@hsgerardo.org
+0279_5,0279,Centro Trapianti di Midollo Osseo,Italy,e.biagi@hsgerardo.org
+0279_6,0279,Centro Trapianti di Midollo Osseo,Italy,n.mandelli@hsgerardo.org
+0279_7,0279,Centro Trapianti di Midollo Osseo,Italy,e.marrocco@hsgerardo.org
+0279_8,0279,Centro Trapianti di Midollo Osseo,Italy,a.battan@hsgerardo.org
+0285_1,0285,Clinica di Oncoematologia Pediatrica,Italy,chiara.messina@unipd.it
+0285_2,0285,Clinica di Oncoematologia Pediatrica,Italy,elisabetta.calore@unipd.it
+0285_3,0285,Clinica di Oncoematologia Pediatrica,Italy,stefania.varotto@unipd.it
+0285_4,0285,Clinica di Oncoematologia Pediatrica,Italy,matteo.bernardi@sanita.padova.it
+0285_5,0285,Clinica di Oncoematologia Pediatrica,Italy,marta.pillon@unipd.it
+0286_1,0286,BMT unit,Italy,alessandrino@smatteo.pv.it
+0286_2,0286,BMT unit,Italy,p.bernasconi@smatteo.pv.it
+0286_3,0286,BMT unit,Italy,aa.colombo@smatteo.pv.it
+0286_4,0286,BMT unit,Italy,d.caldera@smatteo.pv.it
+0286_5,0286,BMT unit,Italy,ematologia.datacenter@smatteo.pv.it
+0286_6,0286,BMT unit,Italy,ematologia.trapianti@smatteo.pv.it
+0286_7,0286,BMT unit,Italy,f.ripamonti@smatteo.pv.it
+0287_1,0287,Ospedale S. Camillo,Italy,imajolino@scamilloforlanini.rm.it
+0287_2,0287,Ospedale S. Camillo,Italy,alocasciulli@scamilloforlanini.rm.it
+0287_3,0287,Ospedale S. Camillo,Italy,aseverino@scamilloforlanini.rm.it
+0287_4,0287,Ospedale S. Camillo,Italy,mpinazzi@scamilloforlanini.rm.it
+0287_5,0287,Ospedale S. Camillo,Italy,aproia@scamilloforlanini.rm.it
+0287_6,0287,Ospedale S. Camillo,Italy,edelgiudice@scamilloforlanini.rm.it
+0287_7,0287,Ospedale S. Camillo,Italy,nnataleit@yahoo.com
+0287_8,0287,Ospedale S. Camillo,Italy,fspirito@scamilloforlanini.rm.it
+0288_1,0288,Spedali Civili - Brescia,Italy,rossig@med.unibs.it
+0288_2,0288,Spedali Civili - Brescia,Italy,enrico.morello@spedalicivili.brescia.it
+0288_3,0288,Spedali Civili - Brescia,Italy,sandrore@aruba.it
+0288_4,0288,Spedali Civili - Brescia,Italy,fenotticristina@alice.it
+0288_5,0288,Spedali Civili - Brescia,Italy,lara.cavalli@hotmail.it
+0294_1,0294,Ospedale di Niguarda Ca` Granda,Italy,enrica.morra@ospedaleniguarda.it
+0294_2,0294,Ospedale di Niguarda Ca` Granda,Italy,paola.marenco@ospedaleniguarda.it
+0294_3,0294,Ospedale di Niguarda Ca` Granda,Italy,giovanni.grillo@ospedaleniguarda.it
+0294_4,0294,Ospedale di Niguarda Ca` Granda,Italy,gianpiera.lanzo@ospedaleniguarda.it
+0294_5,0294,Ospedale di Niguarda Ca` Granda,Italy,elisa.zucchetti@ospedaleniguarda.it
+0298_1,0298,Istituto Scientifico Romagnolo,Italy,u.degiorgi@irst.emr.it
+0298_2,0298,Istituto Scientifico Romagnolo,Italy,p.fattori@irst.emr.it
+0298_3,0298,Istituto Scientifico Romagnolo,Italy,francesca.fabbri@irst.emr.it
+0299_1,0299,Hospital San Maurizio,Italy,marco.casini@asbz.it
+0299_2,0299,Hospital San Maurizio,Italy,andrea.pinna@asbz.it
+0299_3,0299,Hospital San Maurizio,Italy,irene.cavattoni@asbz.it
+0299_4,0299,Hospital San Maurizio,Italy,sara.deola@asbz.it
+0299_5,0299,Hospital San Maurizio,Italy,alessandra.marabese@gmail.com
+0299_6,0299,Hospital San Maurizio,Italy,irene.pusceddu@asbz.it
+0299_7,0299,Hospital San Maurizio,Italy,emat@asbz.it
+0304_1,0304,Ospedale di Careggi,Italy,alberto.bosi@unifi.it
+0304_2,0304,Ospedale di Careggi,Italy,stefano.guidi@unifi.it
+0304_3,0304,Ospedale di Careggi,Italy,letizia.lombardini@unifi.it
+0304_4,0304,Ospedale di Careggi,Italy,riccardo.saccardi@unifi.it
+0304_5,0304,Ospedale di Careggi,Italy,antonella.gozzini@unifi.it
+0304_6,0304,Ospedale di Careggi,Italy,chiara.nozzoli@unifi.it
+0304_7,0304,Ospedale di Careggi,Italy,galganol@aou-careggi.toscana.it
+0304_8,0304,Ospedale di Careggi,Italy,bartolozzib@aou-careggi.toscana.it
+0304_9,0304,Ospedale di Careggi,Italy,irdonni@tin.it
+0305_1,0305,Onco-Ematologia Pediatrica,Italy,franca.fagioli@unito.it
+0305_2,0305,Onco-Ematologia Pediatrica,Italy,elena.vassallo@unito.it
+0305_3,0305,Onco-Ematologia Pediatrica,Italy,massimo.berger@unito.it
+0305_4,0305,Onco-Ematologia Pediatrica,Italy,francesca.nesi@unito.it
+0305_5,0305,Onco-Ematologia Pediatrica,Italy,stefano.vallero@gmail.com
+0305_6,0305,Onco-Ematologia Pediatrica,Italy,paola.quarello@unito.it
+0305_7,0305,Onco-Ematologia Pediatrica,Italy,silvia.scarrone@unito.it
+0305_8,0305,Onco-Ematologia Pediatrica,Italy,ivana.ferrero@unito.it
+0306_1,0306,Ospedale Civile,Italy,e.zuffa@ausl.ra.it
+0306_2,0306,Ospedale Civile,Italy,a.zaccaria@ausl.ra.it
+0306_3,0306,Ospedale Civile,Italy,m.marangolo@ausl.ra.it
+0306_4,0306,Ospedale Civile,Italy,f.zumaglini@ausl.ra.it
+0307_1,0307,Universita Cattolica S. Cuore,Italy,gleone@rm.unicatt.it
+0307_2,0307,Universita Cattolica S. Cuore,Italy,emacat@rm.unicatt.it
+0321_1,0321,U.O.S.A Centro Trapianti e Terapia Cellulare,Italy,g.marotta@ao-siena.toscana.it
+0321_2,0321,U.O.S.A Centro Trapianti e Terapia Cellulare,Italy,alessandro@casaemma.com
+0321_3,0321,U.O.S.A Centro Trapianti e Terapia Cellulare,Italy,m.lenoci@ao-siena.toscana.it
+0321_4,0321,U.O.S.A Centro Trapianti e Terapia Cellulare,Italy,m.tozzi@ao-siena.toscana.it
+0321_5,0321,U.O.S.A Centro Trapianti e Terapia Cellulare,Italy,ciroborrelli61@hotmail.com
+0330_1,0330,University of Ferrara,Italy,cuneo.a@ospfe.it
+0330_2,0330,University of Ferrara,Italy,sse@unife.it
+0330_3,0330,University of Ferrara,Italy,cut@unife.it
+0331_1,0331,European Institute of Oncology,Italy,giovanni.martinelli@ieo.it
+0331_2,0331,European Institute of Oncology,Italy,rocco.pastano@ieo.it
+0331_3,0331,European Institute of Oncology,Italy,d_laszlo_2000@yahoo.it
+0331_4,0331,European Institute of Oncology,Italy,angelo.gardellini@ieo.it
+0331_5,0331,European Institute of Oncology,Italy,simona.sammassimo@ieo.it
+0331_6,0331,European Institute of Oncology,Italy,margherita.clerici@ieo.it
+0331_7,0331,European Institute of Oncology,Italy,lorlando@inwind.it
+0331_8,0331,European Institute of Oncology,Italy,sarah.liptrott@ieo.it
+0331_9,0331,European Institute of Oncology,Italy,liliana.calabrese@ieo.it
+0331_10,0331,European Institute of Oncology,Italy,aleksandra.babic@eoc.ch
+0332_1,0332,Ospedale Nord,Italy,patrizio.mazza@libero.it
+0332_2,0332,Ospedale Nord,Italy,ematologia.taranto@tin.it
+0332_3,0332,Ospedale Nord,Italy,g.pricolo@tin.it
+0354_1,0354,Istituto Clinico Humanitas,Italy,luca.castagna@cancercenter.humanitas.it
+0354_2,0354,Istituto Clinico Humanitas,Italy,armando.santoro@cancercenter.humanitas.it
+0354_3,0354,Istituto Clinico Humanitas,Italy,stefania.bramanti@cancercenter.humanitas.it
+0354_4,0354,Istituto Clinico Humanitas,Italy,barbara.sarina@cancercenter.humanitas.it
+0354_5,0354,Istituto Clinico Humanitas,Italy,elena.garofalo@cancercenter.humanitas.it
+0354_6,0354,Istituto Clinico Humanitas,Italy,roberto.crocchiolo@cancercenter.humanitas.it
+0379_1,0379,Ospedale Santa Maria Goretti,Italy,emato@online.latina.it
+0379_2,0379,Ospedale Santa Maria Goretti,Italy,ezappone@tiscali.it
+0379_3,0379,Ospedale Santa Maria Goretti,Italy,ucoppet@libero.it
+0383_1,0383,International Center for Transplantation in,Italy,g.lucarelli@fondazioneime.org
+0383_2,0383,International Center for Transplantation in,Italy,j.gaziev@fondazioneime.org
+0383_3,0383,International Center for Transplantation in,Italy,p.sodani@fondazioneime.org
+0383_4,0383,International Center for Transplantation in,Italy,musadubali@yahoo.com
+0392_1,0392,Ospedale V. Cervello,Italy,rscime@tiscali.it
+0392_2,0392,Ospedale V. Cervello,Italy,annamaria.cavallaro@tiscali.it
+0392_3,0392,Ospedale V. Cervello,Italy,scarollo@tiscali.it
+0392_4,0392,Ospedale V. Cervello,Italy,lsbriglio@yahoo.it
+0415_1,0415,Presidio Ospedaliero Treviso,Italy,fgherlinzoni@ulss.tv.it
+0415_2,0415,Presidio Ospedaliero Treviso,Italy,pmstefani@ulss.tv.it
+0415_3,0415,Presidio Ospedaliero Treviso,Italy,migottardi@ulss.tv.it
+0415_4,0415,Presidio Ospedaliero Treviso,Italy,suvincenzi@ulss.tv.it
+0415_5,0415,Presidio Ospedaliero Treviso,Italy,edegrandi@ulss.tv.it
+0415_6,0415,Presidio Ospedaliero Treviso,Italy,segematologiatv@ulss.tv.it
+0419_1,0419,Unità Operativa Di Medicina Interna,Italy,ricentu@tin.it
+0419_2,0419,Unità Operativa Di Medicina Interna,Italy,a_tassetti@virgilio.it
+0419_3,0419,Unità Operativa Di Medicina Interna,Italy,marialuisa.minnucci@sanita.marche.it
+0419_4,0419,Unità Operativa Di Medicina Interna,Italy,milena.mirabile@email.it
+0419_5,0419,Unità Operativa Di Medicina Interna,Italy,fercate@mail.it
+0419_6,0419,Unità Operativa Di Medicina Interna,Italy,francesco.sabbatini@gmail.com
+0453_1,0453,Istituto Ortopedico Rizzoli,Italy,massimo.abate@ior.it
+0453_2,0453,Istituto Ortopedico Rizzoli,Italy,marilena.cesari@ior.it
+0453_3,0453,Istituto Ortopedico Rizzoli,Italy,emanuela.palmerini@ior.it
+0453_4,0453,Istituto Ortopedico Rizzoli,Italy,rita.boschi@ior.it
+0453_5,0453,Istituto Ortopedico Rizzoli,Italy,emanuela.marchesi@ior.it
+0455_1,0455,Azienda Ospedaliera Ordine Mauriziano - Umberto I,Italy,corrado.tarella@unito.it
+0455_2,0455,Azienda Ospedaliera Ordine Mauriziano - Umberto I,Italy,alberto.descrescenzo@unito.it
+0455_3,0455,Azienda Ospedaliera Ordine Mauriziano - Umberto I,Italy,alcignet@gmail.com
+0455_4,0455,Azienda Ospedaliera Ordine Mauriziano - Umberto I,Italy,momo_wade@hotmail.it
+0455_5,0455,Azienda Ospedaliera Ordine Mauriziano - Umberto I,Italy,cmentone@mauriziano.it
+0502_1,0502,Ospedale Dell`Angelo,Italy,renato.bassan@ulss12.ve.it
+0502_2,0502,Ospedale Dell`Angelo,Italy,michele.vespignani@ulss12.ve.it
+0502_3,0502,Ospedale Dell`Angelo,Italy,rino.derossi@ulss12.ve.it
+0502_4,0502,Ospedale Dell`Angelo,Italy,ocme.ematologia@ulss12.ve.it
+0502_5,0502,Ospedale Dell`Angelo,Italy,sai_elena.maino@ulss12.ve.it
+0502_6,0502,Ospedale Dell`Angelo,Italy,ocve.ematologia@ulss12.ve.it
+0525_1,0525,Istituto per l`Infanzia `IRCCS Burlo Garofolo`,Italy,natalia.maximova@burlo.trieste.it
+0525_2,0525,Istituto per l`Infanzia `IRCCS Burlo Garofolo`,Italy,marco.rabusin@burlo.trieste.it
+0525_3,0525,Istituto per l`Infanzia `IRCCS Burlo Garofolo`,Italy,valentina.kiren@burlo.trieste.it
+0525_4,0525,Istituto per l`Infanzia `IRCCS Burlo Garofolo`,Italy,rosa.guerrato@burlo.trieste.it
+0525_5,0525,Istituto per l`Infanzia `IRCCS Burlo Garofolo`,Italy,maximova@burlo.trieste.it
+0526_1,0526,IRCCS, Casa Sollievo della Sofferenza,Italy,ematologia@operapadrepio.it
+0526_2,0526,IRCCS, Casa Sollievo della Sofferenza,Italy,amcarella@virgilio.it
+0526_3,0526,IRCCS, Casa Sollievo della Sofferenza,Italy,mm.greco@tiscali.it
+0526_4,0526,IRCCS, Casa Sollievo della Sofferenza,Italy,savinolucia@yahoo.it
+0529_1,0529,Pesaro Hospital,Italy,g.visani@ospedalesansalvatore.it
+0529_2,0529,Pesaro Hospital,Italy,s.barulli@ospedalesansalvatore.it
+0529_3,0529,Pesaro Hospital,Italy,b.guiducci@ospedalesansalvatore.it
+0529_4,0529,Pesaro Hospital,Italy,c.giardini@ospedalesansalvatore.it
+0529_5,0529,Pesaro Hospital,Italy,m.lucesole@ospedalesansalvatore.it
+0529_6,0529,Pesaro Hospital,Italy,pesarohematology@yahoo.it
+0529_7,0529,Pesaro Hospital,Italy,a.bonopera@ospedalesansalvatore.it
+0543_1,0543,Uni. Modena, Policlinico,Italy,franco.narni@unimore.it
+0543_2,0543,Uni. Modena, Policlinico,Italy,comdeg2sm1@policlinico.mo.it
+0543_3,0543,Uni. Modena, Policlinico,Italy,mariano.maria@policlinico.mo.it
+0543_4,0543,Uni. Modena, Policlinico,Italy,ceccherelli.gbattista@policlinico.mo.it
+0543_5,0543,Uni. Modena, Policlinico,Italy,mario.luppi@unimore.it
+0543_6,0543,Uni. Modena, Policlinico,Italy,comutmcs@policlinico.mo.it
+0543_7,0543,Uni. Modena, Policlinico,Italy,cuoghi.angela@policlinico.mo.it
+0544_1,0544,Ospedale San Gerardo,Italy,p.pioltelli@hsgerardo.org
+0544_2,0544,Ospedale San Gerardo,Italy,enrico.pogliani@unimib.it
+0544_3,0544,Ospedale San Gerardo,Italy,mattparm@libero.it
+0544_4,0544,Ospedale San Gerardo,Italy,eterruzzie@yahoo.com
+0544_5,0544,Ospedale San Gerardo,Italy,eminorci@fastwebnet.it
+0544_6,0544,Ospedale San Gerardo,Italy,cecilia71280@hotmail.com
+0557_1,0557,Fondazione IRCCS Policlinico San Matteo,Italy,m.zecca@smatteo.pv.it
+0557_2,0557,Fondazione IRCCS Policlinico San Matteo,Italy,n.decembrino@smatteo.pv.it
+0557_3,0557,Fondazione IRCCS Policlinico San Matteo,Italy,r.maccario@smatteo.pv.it
+0557_4,0557,Fondazione IRCCS Policlinico San Matteo,Italy,g.giorgiani@smatteo.pv.it
+0557_5,0557,Fondazione IRCCS Policlinico San Matteo,Italy,pcomoli@smatteo.pv.it
+0557_6,0557,Fondazione IRCCS Policlinico San Matteo,Italy,a.moretta@smatteo.pv.it
+0557_7,0557,Fondazione IRCCS Policlinico San Matteo,Italy,d.montagna@smatteo.pv.it
+0557_8,0557,Fondazione IRCCS Policlinico San Matteo,Italy,vale.dececco@libero.it
+0587_1,0587,Azienda Ospedaliera,Italy,irrera1959@libero.it
+0587_2,0587,Azienda Ospedaliera,Italy,elimas76@libero.it
+0587_3,0587,Azienda Ospedaliera,Italy,massimartino@tin.it
+0587_4,0587,Azienda Ospedaliera,Italy,gspmessina@virgilio.it
+0587_5,0587,Azienda Ospedaliera,Italy,giuseppeconsole@libero.it
+0587_6,0587,Azienda Ospedaliera,Italy,lilla.russo@libero.it
+0587_7,0587,Azienda Ospedaliera,Italy,giuseppealbertogallo@gmail.com
+0587_8,0587,Azienda Ospedaliera,Italy,g.cusumano@live.it
+0587_9,0587,Azienda Ospedaliera,Italy,r.fedele@yahoo.it
+0587_10,0587,Azienda Ospedaliera,Italy,rmonteleone.ctmo@yahoo.it
+0587_11,0587,Azienda Ospedaliera,Italy,timoscato@yahoo.it
+0606_1,0606,Az. Ospedaliera S. Croce e Carle,Italy,gallamini.a@ospedale.cuneo.it
+0606_2,0606,Az. Ospedaliera S. Croce e Carle,Italy,grasso.m@ospedale.cuneo.it
+0606_3,0606,Az. Ospedaliera S. Croce e Carle,Italy,mordini.n@ospedale.cuneo.it
+0606_4,0606,Az. Ospedaliera S. Croce e Carle,Italy,daealemattei@tin.it
+0606_5,0606,Az. Ospedaliera S. Croce e Carle,Italy,cavallo.a@ospedale.cuneo.it
+0606_6,0606,Az. Ospedaliera S. Croce e Carle,Italy,ematologia@ospedale.cuneo.it
+0616_1,0616,University of Milano,Italy,paolo.corradini@unimi.it
+0616_2,0616,University of Milano,Italy,alessandro.gianni@unimi.it
+0616_3,0616,University of Milano,Italy,michele.magni@istitutotumori.mi.it
+0616_4,0616,University of Milano,Italy,roberto.luksch@unimi.it
+0616_5,0616,University of Milano,Italy,vittorio.montefusco@istitutotumori.mi.it
+0616_6,0616,University of Milano,Italy,lucia.saracino@unimi.it
+0616_7,0616,University of Milano,Italy,paola.matteucci@istitutotumori.mi.it
+0616_8,0616,University of Milano,Italy,paolo.longoni@istitutotumori.mi.it
+0623_1,0623,Policlinico G.B. Rossi,Italy,fabio.benedetti@univr.it
+0623_2,0623,Policlinico G.B. Rossi,Italy,pizzolo.borgoroma@univr.it
+0623_3,0623,Policlinico G.B. Rossi,Italy,angelo.andreini@ospedaleuniverona.it
+0623_4,0623,Policlinico G.B. Rossi,Italy,francesca.mazzo@ospedaleuniverona.it
+0649_1,0649,Universita degli Studi di Bari,Italy,g.specchia@ematba.uniba.it
+0649_2,0649,Universita degli Studi di Bari,Italy,d.pastore@ematba.uniba.it
+0649_3,0649,Universita degli Studi di Bari,Italy,mario.delia@tiscali.it
+0649_4,0649,Universita degli Studi di Bari,Italy,ematba@cimedoc.uniba.it
+0652_1,0652,Hospital C. Panico,Italy,enzopavone@libero.it
+0652_2,0652,Hospital C. Panico,Italy,salentoematologia@piafondazionepanico.it
+0652_3,0652,Hospital C. Panico,Italy,salentoematolgia@piafondazionepanico.it
+0658_1,0658,Azienda Ospedaliera Papa Giovanni XXIII,Italy,arambaldi@hpg23.it
+0658_2,0658,Azienda Ospedaliera Papa Giovanni XXIII,Italy,agrassi@hpg23.it
+0658_3,0658,Azienda Ospedaliera Papa Giovanni XXIII,Italy,aalgarotti@hpg23.it
+0658_4,0658,Azienda Ospedaliera Papa Giovanni XXIII,Italy,cmico@hpg23.it
+0658_5,0658,Azienda Ospedaliera Papa Giovanni XXIII,Italy,nikita572002@yahoo.it
+0658_6,0658,Azienda Ospedaliera Papa Giovanni XXIII,Italy,acarobbio@hpg23.it
+0658_7,0658,Azienda Ospedaliera Papa Giovanni XXIII,Italy,eoldani@hpg23.it
+0660_1,0660,Arcispedale S. Maria Nuova,Italy,merli.francesco@asmn.re.it
+0660_2,0660,Arcispedale S. Maria Nuova,Italy,facchini.luca@asmn.re.it
+0660_3,0660,Arcispedale S. Maria Nuova,Italy,imovilli.annalisa@asmn.re.it
+0660_4,0660,Arcispedale S. Maria Nuova,Italy,stefano.botti@asmn.re.it
+0660_5,0660,Arcispedale S. Maria Nuova,Italy,katia.codeluppi@asmn.re.it
+0660_6,0660,Arcispedale S. Maria Nuova,Italy,merli.francesco@asmn.re.it)
+0669_1,0669,Policlinico Universitario Messina,Italy,vpitini@unime.it
+0669_2,0669,Policlinico Universitario Messina,Italy,aalonci@unime.it
+0669_3,0669,Policlinico Universitario Messina,Italy,carrigo@unime.it
+0692_1,0692,Ospedale La Maddalena - Dpt. Oncologico,Italy,mamusso@libero.it
+0692_2,0692,Ospedale La Maddalena - Dpt. Oncologico,Italy,fporretto@alice.it
+0692_3,0692,Ospedale La Maddalena - Dpt. Oncologico,Italy,acrescimanno@libero.it
+0692_4,0692,Ospedale La Maddalena - Dpt. Oncologico,Italy,hematos@libero.it
+0705_1,0705,Azienda Ospedaliero Universitaria di Udine,Italy,renato.fanin@uniud.it
+0705_2,0705,Azienda Ospedaliero Universitaria di Udine,Italy,cerno.michela@aoud.sanita.fvg.it
+0705_3,0705,Azienda Ospedaliero Universitaria di Udine,Italy,patriarca.francesca@aoud.sanita.fvg.it
+0705_4,0705,Azienda Ospedaliero Universitaria di Udine,Italy,sperotto.alessandra@aoud.sanita.fvg.it
+0705_5,0705,Azienda Ospedaliero Universitaria di Udine,Italy,nin.cristina@aoud.sanita.fvg.it
+0705_6,0705,Azienda Ospedaliero Universitaria di Udine,Italy,ematologia@uniud.it
+0741_1,0741,Universitá degli Studi di Brescia,Italy,fulvio.porta@gmail.com
+0741_2,0741,Universitá degli Studi di Brescia,Italy,notarang@master.cci.unibs.it
+0741_3,0741,Universitá degli Studi di Brescia,Italy,porta.clin.pedbs@numerica.it
+0741_4,0741,Universitá degli Studi di Brescia,Italy,atropina74@libero.it
+0741_5,0741,Universitá degli Studi di Brescia,Italy,tmobs@libero.it
+0756_1,0756,Rome Transplant Network,Italy,william.arcese@ptvonline.it
+0756_2,0756,Rome Transplant Network,Italy,cudsisto@mix.it
+0756_3,0756,Rome Transplant Network,Italy,raffaella.cerretti@ptvonline.it
+0756_4,0756,Rome Transplant Network,Italy,picardi@med.uniroma2.it
+0756_5,0756,Rome Transplant Network,Italy,silvia.micciche@ptvonline.it
+0756_6,0756,Rome Transplant Network,Italy,francesco.trenta@ptvonline.it
+0756_7,0756,Rome Transplant Network,Italy,sonia.soave@ptvonline.it
+0756_8,0756,Rome Transplant Network,Italy,fabio.dipiazza@ptvonline.it
+0766_1,0766,University of Napoli,Italy,gederosa@unina.it
+0766_2,0766,University of Napoli,Italy,amrisita@unina.it
+0766_3,0766,University of Napoli,Italy,fabrizio.pane@unina.it
+0766_4,0766,University of Napoli,Italy,gianpaolo.gargiulo@unina.it
+0766_5,0766,University of Napoli,Italy,grimaldi.francesco@gmail.com
+0766_6,0766,University of Napoli,Italy,prz.ricci@gmail.com
+0771_1,0771,Fondazione S. Maugeri,Italy,alberto.zambelli@fsm.it
+0771_2,0771,Fondazione S. Maugeri,Italy,gianantonio.daprada@fsm.it
+0771_3,0771,Fondazione S. Maugeri,Italy,annalisa.lanza@fsm.it
+0771_4,0771,Fondazione S. Maugeri,Italy,vittorio.fregoni@fsm.it
+0771_5,0771,Fondazione S. Maugeri,Italy,claudia.piccinini@fsm.it
+0788_1,0788,Azienda Ospedali Riuniti di Ancona,Italy,a.olivieri@univpm.it
+0788_2,0788,Azienda Ospedali Riuniti di Ancona,Italy,p.leoni@univpm.it
+0788_3,0788,Azienda Ospedali Riuniti di Ancona,Italy,i.scortechini@ospedaliriuniti.marche.it
+0788_4,0788,Azienda Ospedali Riuniti di Ancona,Italy,m.montanari@ospedaliriuniti.marche.it
+0788_5,0788,Azienda Ospedali Riuniti di Ancona,Italy,
+0788_6,0788,Azienda Ospedali Riuniti di Ancona,Italy,c.montevecchi@ospedaliriuniti.marche.it
+0788_7,0788,Azienda Ospedali Riuniti di Ancona,Italy,giormancini@gmail.com
+0789_1,0789,A.O.R.N. `SAN.G MOSCATI`,Italy,gabriellastorti@libero.it
+0789_2,0789,A.O.R.N. `SAN.G MOSCATI`,Italy,n.cantore@virgilio.it
+0789_3,0789,A.O.R.N. `SAN.G MOSCATI`,Italy,ematologiaav@geos.it
+0789_4,0789,A.O.R.N. `SAN.G MOSCATI`,Italy,egi_fina@libero.it
+0790_1,0790,Azienda Ospedaliero Universitaria,Italy,andrea.pession@unibo.it
+0790_2,0790,Azienda Ospedaliero Universitaria,Italy,tmoped@aosp.bo.it
+0790_3,0790,Azienda Ospedaliero Universitaria,Italy,roberto.rondelli@aosp.bo.it
+0790_4,0790,Azienda Ospedaliero Universitaria,Italy,korinnedileo@yahoo.it
+0790_5,0790,Azienda Ospedaliero Universitaria,Italy,melchionda@aosp.it
+0790_6,0790,Azienda Ospedaliero Universitaria,Italy,laboep01@med.unibo.it
+0790_7,0790,Azienda Ospedaliero Universitaria,Italy,rickymaso@libero.it
+0790_8,0790,Azienda Ospedaliero Universitaria,Italy,valentina.brazzini@aosp.bo.it
+0790_9,0790,Azienda Ospedaliero Universitaria,Italy,tmoped@aosp.it
+0791_1,0791,Ospedale `A. Businco` Cagliari,Italy,emnang@tin.it
+0791_2,0791,Ospedale `A. Businco` Cagliari,Italy,d.baronciani@tiscali.it
+0791_3,0791,Ospedale `A. Businco` Cagliari,Italy,cristinadepau@libero.it
+0791_4,0791,Ospedale `A. Businco` Cagliari,Italy,albapiras@asl8cagliari.it
+0791_5,0791,Ospedale `A. Businco` Cagliari,Italy,culurgioni@virgilio.it
+0791_6,0791,Ospedale `A. Businco` Cagliari,Italy,zucca.silvia@alice.it
+0792_1,0792,Azienda Policlinico Vittorio Emanuele,Italy,giuseppe.milone@gmail.com
+0792_2,0792,Azienda Policlinico Vittorio Emanuele,Italy,gaetano72@virgilio.it
+0792_3,0792,Azienda Policlinico Vittorio Emanuele,Italy,lucan@yahoo.com
+0792_4,0792,Azienda Policlinico Vittorio Emanuele,Italy,leotta3@gmail.com
+0792_5,0792,Azienda Policlinico Vittorio Emanuele,Italy,annalia78@alice.it
+0792_6,0792,Azienda Policlinico Vittorio Emanuele,Italy,l.mascali@hotmail.it
+0792_7,0792,Azienda Policlinico Vittorio Emanuele,Italy,salurio@libero.it
+0793_1,0793,Ospedale `San Francesco`,Italy,emanuor@tiscali.it
+0794_1,0794,Sezione di Ematologia,Italy,velardi@unipg.it
+0794_2,0794,Sezione di Ematologia,Italy,maramerluzzi@libero.it
+0795_1,0795,Unità Operativa Oncoematologia Pediatrica,Italy,c.favre@med.unipi.it
+0795_2,0795,Unità Operativa Oncoematologia Pediatrica,Italy,g.casazza@libero.it
+0795_3,0795,Unità Operativa Oncoematologia Pediatrica,Italy,m.menconi@ao-pisa.toscana.it
+0795_4,0795,Unità Operativa Oncoematologia Pediatrica,Italy,t.delcarlo@ao-pisa.toscana.it
+0795_5,0795,Unità Operativa Oncoematologia Pediatrica,Italy,s.bernasconi@ao-pisa.toscana.it
+0796_1,0796,IRRCS Ospedale Pediatrico Bambino Gesù,Italy,franco.locatelli@opbg.net
+0796_2,0796,IRRCS Ospedale Pediatrico Bambino Gesù,Italy,alice.bertaina@opbg.net
+0796_3,0796,IRRCS Ospedale Pediatrico Bambino Gesù,Italy,mariaester.bernardo@opbg.net
+0796_4,0796,IRRCS Ospedale Pediatrico Bambino Gesù,Italy,giuseppe.milano@opbg.net
+0796_5,0796,IRRCS Ospedale Pediatrico Bambino Gesù,Italy,sergio.rutella@opbg.net
+0796_6,0796,IRRCS Ospedale Pediatrico Bambino Gesù,Italy,ritamaria.pinto@opbg.net
+0796_7,0796,IRRCS Ospedale Pediatrico Bambino Gesù,Italy,valeria.intraligi@opbg.net
+0796_8,0796,IRRCS Ospedale Pediatrico Bambino Gesù,Italy,angela.mastronuzzi@opbg.net
+0796_9,0796,IRRCS Ospedale Pediatrico Bambino Gesù,Italy,daria.pagliara@opbg.net
+0797_1,0797,S. Bortolo Hospital ,Italy,rodeghiero@hemato.ven.it
+0797_2,0797,S. Bortolo Hospital ,Italy,raimondi@hemato.ven.it
+0797_3,0797,S. Bortolo Hospital ,Italy,miggiano@hemato.ven.it
+0797_4,0797,S. Bortolo Hospital ,Italy,borghero@hemato.ven.it
+0797_5,0797,S. Bortolo Hospital ,Italy,elice@hemato.ven.it
+0797_6,0797,S. Bortolo Hospital ,Italy,doc74it@hotmail.com
+0797_7,0797,S. Bortolo Hospital ,Italy,nurse@hemato.ven.it
+0811_1,0811,Adult and Paediatric Transplant Centre,Italy,lanasa@tiscali.it
+0811_2,0811,Adult and Paediatric Transplant Centre,Italy,vaadriana@tiscali.it
+0811_3,0811,Adult and Paediatric Transplant Centre,Italy,corrias69@gmail.com
+0811_4,0811,Adult and Paediatric Transplant Centre,Italy,annacoco@medicina.unica.it
+0813_1,0813,Ospedale San Raffaele s.r.l.,Italy,fabio.ciceri@hsr.it
+0813_2,0813,Ospedale San Raffaele s.r.l.,Italy,peccatori.jacopo@hsr.it
+0813_3,0813,Ospedale San Raffaele s.r.l.,Italy,marcatti.magda@hsr.it
+0813_4,0813,Ospedale San Raffaele s.r.l.,Italy,bernardi.massimo@hsr.it
+0813_5,0813,Ospedale San Raffaele s.r.l.,Italy,soliman.clara@hsr.it
+0813_6,0813,Ospedale San Raffaele s.r.l.,Italy,corti.consuelo@hsr.it
+0813_7,0813,Ospedale San Raffaele s.r.l.,Italy,marktel.sarah@hsr.it
+0813_8,0813,Ospedale San Raffaele s.r.l.,Italy,bondanza.attilio@hsr.it
+0813_9,0813,Ospedale San Raffaele s.r.l.,Italy,trinca.stefania@hsr.it
+0813_10,0813,Ospedale San Raffaele s.r.l.,Italy,bonini.chiara@hsr.it
+0813_11,0813,Ospedale San Raffaele s.r.l.,Italy,greco.raffaella@hsr.it
+0813_12,0813,Ospedale San Raffaele s.r.l.,Italy,lupostanghellini.mariateresa@hsr.it
+0813_13,0813,Ospedale San Raffaele s.r.l.,Italy,malerba.ambra@hsr.it
+0813_14,0813,Ospedale San Raffaele s.r.l.,Italy,ciceri.fabio@hsr.it
+0825_1,0825,H SS. Antonio e Biagio ,Italy,fsalvi@ospedale.al.it
+0825_2,0825,H SS. Antonio e Biagio ,Italy,mcorssetti@ospedale.al.it
+0825_3,0825,H SS. Antonio e Biagio ,Italy,mpini@ospedale.al.it
+0825_4,0825,H SS. Antonio e Biagio ,Italy,apesce@ospedale.al.it
+0825_5,0825,H SS. Antonio e Biagio ,Italy,stamiazzo@ospedale.al.it
+0825_6,0825,H SS. Antonio e Biagio ,Italy,fazallio@ospedale.al.it
+0839_1,0839,Ist Naz Tumori - Fondazione Sen G Pascale,Italy,apinto.int.napoli@tin.it
+0839_2,0839,Ist Naz Tumori - Fondazione Sen G Pascale,Italy,gpmarcacci@libero.it
+0853_1,0853,Padua University Hospital,Italy,g.semenzato@unipd.it
+0853_2,0853,Padua University Hospital,Italy,livio.trentin@unipd.it
+0853_3,0853,Padua University Hospital,Italy,r.zambello@unipd.it
+0853_4,0853,Padua University Hospital,Italy,carlo.sabbion@sanita.padova.it
+0853_5,0853,Padua University Hospital,Italy,alessandra.denadai@unipd.it
+0853_6,0853,Padua University Hospital,Italy,ematologiapadova.dimed@unipd.it
+0861_1,0861,Ospedale San Carlo,Italy,pizzuti.m@tiscali.it
+0861_2,0861,Ospedale San Carlo,Italy,albemail@libero.it
+0861_3,0861,Ospedale San Carlo,Italy,miki-doc@virgilio.it
+0861_4,0861,Ospedale San Carlo,Italy,angela.amendola@ospedalesancarlo.it
+0861_5,0861,Ospedale San Carlo,Italy,carmela.lucia@ospedalesancarlo.it
+0861_6,0861,Ospedale San Carlo,Italy,imma.attolico@tin.it
+0861_7,0861,Ospedale San Carlo,Italy,ematologia.trapianto@ospedalesancarlo.it
+0863_1,0863,S.Andrea Hospital,Italy,albemail@libero.it
+0863_2,0863,S.Andrea Hospital,Italy,fabio.ardizzone@aslvc.piemonte.it
+0863_3,0863,S.Andrea Hospital,Italy,annatolomeo@tiscali.it
+0863_4,0863,S.Andrea Hospital,Italy,paola.ferrari@aslvc.piemonte.it
+0863_5,0863,S.Andrea Hospital,Italy,mariellasciacca@libero.it
+0867_1,0867,Ospedale Maggiore della Carità,Italy,gaidano@med.unipmn.it
+0867_2,0867,Ospedale Maggiore della Carità,Italy,luca.nassi@med.unipmn.it
+0867_3,0867,Ospedale Maggiore della Carità,Italy,monia.lunghi@med.unipmn.it
+0867_4,0867,Ospedale Maggiore della Carità,Italy,casaluci@med.unipmn.it
+0867_5,0867,Ospedale Maggiore della Carità,Italy,cris.battelli@gmail.com
+0867_6,0867,Ospedale Maggiore della Carità,Italy,gastaldimarina@libero.it
+0867_7,0867,Ospedale Maggiore della Carità,Italy,katja17@libero.it
+0867_8,0867,Ospedale Maggiore della Carità,Italy,andrea.capponi@maggioreospe.novara.it
+0870_1,0870,Istituto Di Ematologia,Italy,fdore@uniss.it
+0870_2,0870,Istituto Di Ematologia,Italy,podda@uniss.it
+0870_3,0870,Istituto Di Ematologia,Italy,rosmarnie@hotmail.com
+0870_4,0870,Istituto Di Ematologia,Italy,cfozza@uniss.it
+0920_1,0920,Perrino Hospital,Italy,angelamelpignano@gmail.com
+0920_2,0920,Perrino Hospital,Italy,giuseppemele2007@gmail.com
+0920_3,0920,Perrino Hospital,Italy,mrcoppi@infinito.it
+0920_4,0920,Perrino Hospital,Italy,
+0927_1,0927,Azienda Ospedaliera,Italy,bregni.marco@hsr.it
+0927_2,0927,Azienda Ospedaliera,Italy,carlo.landoni@tiscali.it
+0927_3,0927,Azienda Ospedaliera,Italy,gcrovetti@aobusto.it
+0927_4,0927,Azienda Ospedaliera,Italy,vanda.bertolli@virgilio.it
+0927_5,0927,Azienda Ospedaliera,Italy,mlatargia@aobusto.it
+0927_6,0927,Azienda Ospedaliera,Italy,psprocati@aobusto.it
+0927_7,0927,Azienda Ospedaliera,Italy,mbregni@aobusto.it
+0928_1,0928,Medical School University of Salerno,Italy,cselleri@unisa.it
+0928_2,0928,Medical School University of Salerno,Italy,bianca.serio@sangiovannieruggi.it
+0928_3,0928,Medical School University of Salerno,Italy,luca.pezzullo@sangiovannieruggi.it
+0928_4,0928,Medical School University of Salerno,Italy,bianca.cuffa@sangiovannieruggi.it
+0928_5,0928,Medical School University of Salerno,Italy,luana.tortora@sangiovannieruggi.it
+0987_1,0987,Azienda Ospedaliera Universitaria San Martino,Italy,amcarella@virgilio.it
+0987_2,0987,Azienda Ospedaliera Universitaria San Martino,Italy,angelagiovanna.congiu@hsanmartino.it
+0987_3,0987,Azienda Ospedaliera Universitaria San Martino,Italy,sandroteresio.nati@hsanmartino.it
+0987_4,0987,Azienda Ospedaliera Universitaria San Martino,Italy,mara.capurro@hsanmartino.it
+0987_5,0987,Azienda Ospedaliera Universitaria San Martino,Italy,angelomichele.carella@hsanmartino.it

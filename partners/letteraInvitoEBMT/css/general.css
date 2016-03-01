@@ -1,0 +1,181 @@
+
+        body {
+
+            margin: 0;
+
+            padding: 0;
+
+            
+
+            font: 12pt"Tahoma";
+
+        }
+
+        .page {
+
+            width: 20cm;
+
+            min-height: 28.2cm;
+
+            padding: 0.2cm;
+
+            background: white;
+
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+            position: relative;
+
+        }
+
+        .page.selected {
+
+            box-shadow: inset 0px 0px 30px rgba(255, 0, 0, 0.3);
+
+        }
+
+        .subpage {
+
+            width: 660px;
+
+            margin: 20px auto;
+
+        }
+
+        .pageNumber {
+
+            position: absolute;
+
+            top: 500px;
+
+            left: 670px;
+
+            width: 100px;
+
+            font-size: 12px;
+
+            color: rgba(0, 0, 0, 0.2);
+
+            -webkit-transform: rotate(270deg);
+
+            -moz-transform: rotate(270deg);
+
+            -o-transform: rotate(270deg);
+
+        }
+
+        * {
+
+            box-sizing: border-box;
+
+            -moz-box-sizing: border-box;
+
+        }
+
+        @page {
+
+            size: A4;
+
+            margin: 0;
+
+        }
+
+        
+
+        .wrapper {
+
+            width: 660px;
+
+            height: 990px;
+
+            background-size: 660px 996px;
+
+            position: relative;
+
+            border: solid 1px rgba(0, 0, 0, 0.1);
+
+        }
+
+        .toolbar {
+
+            color: white;
+
+            font-size: 11px;
+
+            position: fixed;
+
+            width: 100%;
+
+            height: 38px;
+
+            background-color: #222;
+
+            z-index: 300000
+
+        }
+
+        .toolbar-cell {
+
+            display: table-cell;
+
+            width: 75px;
+
+        }
+
+        .toolbar input {
+
+            height: 19px;
+
+            width: 40px;
+
+        }
+
+
+@media print {
+
+            .page {
+
+                margin: 0;
+
+                border: initial;
+
+                border-radius: initial;
+
+                width: initial;
+
+                min-height: initial;
+
+                box-shadow: initial;
+
+                background: initial;
+
+                page-break-after: always;
+
+            }
+
+            .no-print {
+
+                display: none;
+
+            }
+
+           
+
+            .widget.string {
+
+                box-shadow: inset 0px 0px 2px rgba(255, 0, 0, 0);
+
+            }
+
+            .docLate_editable_div {
+
+                position: absolute;
+
+                background-color: rgba(0, 0, 0, 0);
+
+            }
+
+            .wrapper{
+                border:none;
+            }
+
+        }
